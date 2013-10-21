@@ -1,0 +1,15 @@
+name = TPE - Shared
+description = Elementi condivisi e di configurazione generale
+core = 7.x
+package = TPE
+php = 5.2.4
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = hierarchical_select
+dependencies[] = hs_taxonomy
+dependencies[] = php
+features[features_api][] = api:1
+features[filter][] = php_code
+features[filter][] = plain_text
+features[hierarchical_select][] = taxonomy-1
+features[user_role][] = redattore

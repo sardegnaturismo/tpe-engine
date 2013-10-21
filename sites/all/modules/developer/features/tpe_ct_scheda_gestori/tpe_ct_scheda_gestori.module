@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the TPE - Content Type - Scheda gestori feature.
+ */
+
+include_once('tpe_ct_scheda_gestori.features.inc');

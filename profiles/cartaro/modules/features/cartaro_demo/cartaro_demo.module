@@ -1,0 +1,148 @@
+<?php
+/**
+ * @file
+ * Code for the Cartaro Demo feature.
+ */
+
+include_once('cartaro_demo.features.inc');
+
+/**
+ * Implements hook_enable().
+ */
+function cartaro_demo_enable() {
+
+  features_rebuild();
+
+  cartaro_demo_save_node('Get started', 'Welcome to Cartaro!
+
+This demo provides you with an exemplary configuration of the Cartaro distribution. More precisely it contains a content type to store the name and location of a capital city, a GeoServer layer and style to publish all capital cities and an OpenLayers map to render those cities on a map. On the front page you will find all components brought together.
+
+Next steps:
+- Create content types with PostGIS fields that suite your needs.
+- Create GeoServer layers to publish content types with PostGIS fields.
+- Create GeoServer styles to customize the rendering of GeoServer layers.
+- Add GeoServer layers to your OpenLayers maps.
+
+See below for a list of detailed documentations.');
+
+  $capitals = dirname(__FILE__) . DIRECTORY_SEPARATOR  . 'capitals.csv';
+  if (($handle = fopen($capitals, 'r')) !== FALSE) {
+    while (($data = fgetcsv($handle, 1000, ';')) !== FALSE) {
+      cartaro_demo_save_node($data[0], $data[1], "POINT($data[3] $data[2])");
+    }
+    fclose($handle);
+  }
+
+  $blocks = array(
+    array(
+      'delta' => 'menu-documentation',
+      'module' => 'menu',
+      'region' => 'footer_fourthcolumn',
+    ),
+    'login' => array(
+      'delta' => 'login',
+      'module' => 'user',
+      'region' => 'footer_firstcolumn',
+    ),
+    array(
+      'module' => 'block',
+      'region' => 'footer',
+      'body' => 'A Cartaro demo - www.cartaro.org',
+      'info' => 'Cartaro footer',
+      'format' => 'plain_text',
+    ),
+  );
+  drupal_flush_all_caches();
+  cartaro_demo_configure_blocks($blocks);
+
+  // Create GeoServer layer.
+  $layer = geoserver_layer_load('capitals');
+  $layer->create_view();
+  $resource = $layer->to_resource();
+  try {
+    $resource->create();
+  } catch (geoserver_resource_exception $exc) {
+    // Layer might already exist.
+  }
+
+  $style = geoserver_style_load('capital');
+  try {
+    geoserver_style_create($style);
+  } catch (Exception $exc) {
+    // Style might already exist.
+  }
+}
+
+function cartaro_demo_save_node($title, $body, $location = FALSE) {
+  $node = new stdClass();
+  $node->title = $title;
+  $node->body['und'][0]['value'] = $body;
+  $node->body['und'][0]['summary'] = $body;
+  $node->body['und'][0]['format'] = 'plain_text';
+  $node->uid = 1;
+  $node->language = 'und';
+  $node->status = 1;
+  $node->promote = 1;
+
+  if ($location) {
+    $node->field_location['und'][0]['wkt'] = $location;
+    $node->type = 'capital';
+  }
+  else {
+    $node->type = 'page';
+  }
+
+  node_save($node);
+}
+
+function cartaro_demo_configure_blocks($blocks) {
+  foreach ($blocks as $block) {
+
+    if ($block['module'] == 'block') {
+      // Create and activate a custom block.
+      db_merge('block_custom')
+        ->key(array('info' => $block['info']))
+        ->fields(array(
+          'body' => $block['body'],
+          'info' => $block['info'],
+          'format' => $block['format'],
+        ))
+        ->execute();
+
+      $block['delta'] = db_select('block_custom', 'bc')
+        ->fields('bc', array('bid'))
+        ->condition('info', 'Cartaro footer')
+        ->execute()
+        ->fetchField();
+
+      db_merge('block')
+        ->key(array(
+          'module' => $block['module'],
+          'delta' => $block['delta'],
+          'theme' => 'frontmap',
+        ))
+        ->fields(array(
+          'pages' => '',
+          'status' => 1,
+          'module' => $block['module'],
+          'theme' => 'frontmap',
+          'delta' => $block['delta'],
+          'cache' => DRUPAL_NO_CACHE,
+          'region' => $block['region'],
+        ))
+        ->execute();
+    }
+    else {
+      // Activate a menu block.
+      db_update('block')
+        ->fields(array(
+          'status' => 1,
+          'region' => $block['region'],
+        ))
+        ->condition('theme', 'frontmap')
+        ->condition('module', $block['module'])
+        ->condition('delta', $block['delta'])
+        ->execute();
+    }
+  }
+}

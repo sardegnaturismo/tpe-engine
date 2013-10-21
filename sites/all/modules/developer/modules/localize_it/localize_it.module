@@ -1,0 +1,236 @@
+<?php
+module_load_include('inc', 'geophp', '/geoPHP/geoPHP');
+
+function localize_it_action_info() {
+   $action = array(
+    'localize_it_action' => array(
+      'label' => t('Localize IT!'),
+      'type' => 'node',
+      'configurable' => FALSE,
+      'triggers' => array('any'),
+    ),
+    'fill_geospatial_action' => array(
+      'label' => t('Fill geospatial field'),
+      'type' => 'node',
+      'configurable' => FALSE,
+      'triggers' => array('any'),
+    ), 
+ );
+ return $action;
+}
+
+
+function fill_geospatial_action(&$entity, $context = array()) {
+  $node=$context['node'];
+  $location=current(current($node));
+  if(intval($location['latitude'])>0){    
+    $coords=Array('lat'=>$location['latitude'],'long'=>$location['longitude']);
+  }else{
+    watchdog('actions', 'No geographical data for node '.$node->title,array()." - ".$e->getMessage(), WATCHDOG_NOTICE);
+    return;}
+  
+  $geospatial=  doGeospatial($coords);
+  
+  if (empty($node->field_geospatial['und'][0])){
+        $node->field_geospatial=$geospatial;
+        }
+        
+   try{
+      field_attach_update('node', $node);}catch(Exception $e){
+        watchdog('actions', 'Error updating node '.$node->title,array()." - ".$e->getMessage(), WATCHDOG_NOTICE);
+      }     
+        
+  }
+
+
+
+function localize_it_action(&$entity, $context = array()) {
+  try{
+$node=$context['node'];
+$tid=0;
+
+  if(empty($node->field_settore_economico)){
+  $path=drupal_get_path('module', 'localize_it');
+  $xml = simplexml_load_file($path. "/localita.xml");
+  $item=$xml->xpath("//contents[uuid='".$node->uuid."']");
+  
+  $tid=(string)$item[0]->{'settore_economico'};
+
+  
+  
+
+  
+}
+
+  if(!empty($node->field_geospatial['und'][0]['geometry'])){
+  $coords=doRetrieveCoordsFromGeospatial($node);
+  }else{
+
+$location=current($node->field_location);
+if(empty($location[0])){
+  $path=drupal_get_path('module', 'localize_it');
+  $xml = simplexml_load_file($path. "/localita.xml");
+  
+  $location=$xml->xpath("//contents[uuid='".$node->uuid."']");
+  
+  if(empty($location))return;
+  $address = $location['0']->{'street'} . " ";
+    $address.=$location['0']->{'city'};
+    $address.=" (" . $location['0']->{'postal_code'} . ") ".$location['0']->{'province'}." ".$location['0']->{'country'};
+  
+}else{
+$address = $location['0']['street'] . " ";
+    $address.=$location['0']['city'];
+    $address.=" (" . $location['0']['postal_code'] . ") ".$location['0']['province']." ".$location['0']['country_name'];
+}
+
+$coords=doGeocode3($address);
+
+if(empty($node->field_geospatial['und'][0]['geometry'])){
+$geospatial=  doGeospatial($coords);
+}
+
+}
+
+$getLocations=fillGetlocations($node,$coords);
+if($getLocations){
+  
+  $node->field_getlocations=$getLocations;
+  
+}
+
+if (empty($node->field_geospatial['und'][0])){
+$node->field_geospatial=$geospatial;
+}
+
+$node->field_latitudine = array( 'it' => array(array('value' =>$coords['lat'])));
+$node->field_longitudine = array( 'it' => array(array('value' =>$coords['long'])));
+if($tid>0){$node->field_settore_economico=Array('it' => Array(Array('tid' => $tid)));}
+
+if(intval($location['0']['latitude'])==0){
+$lang=current(array_keys($node->field_location));
+$loc=&$node->field_location[$lang][0];
+$loc['inhibit_geocode'] = true;
+$loc['source'] = 3;
+$loc['latitude'] = $coords['lat'];
+$loc['longitude'] = $coords['long'];
+}
+
+
+
+
+}catch(Exception $e){
+  
+watchdog('actions', 'Error geolocating node '.$node->title,array()." - ".$e->getMessage(), WATCHDOG_NOTICE); 
+return;
+}
+
+try{
+field_attach_update('node', $node);}catch(Exception $e){
+watchdog('actions', 'Error updating node '.$node->title,array()." - ".$e->getMessage(), WATCHDOG_NOTICE);
+}
+
+}
+
+
+function fillGetlocations($node,$coords){
+  $location=current(current($node->field_location));
+  $tmp=current($node->field_getlocations);
+  if(!empty($tmp)){$getLocations=current($tmp);}
+  if(!empty($getLocations['glid'])){$glid=$getLocations['glid'];}
+  
+  $location['country']=  strtoupper($location['country']);
+  $location['inhibit_geocode'] = true;
+  $location['latitude'] = $coords['lat'];
+  $location['longitude'] = $coords['long'];
+  $location['glid']=$glid;
+  unset($location['source']);
+  if(intval($location['latitude'])>0 && !isPointInRange(Array('lat'=>  intval($getLocations['latitude']), 'long'=>intval($getLocations['longitude'])))){
+    
+    
+    
+    $getLocations=Array('und' => Array($location));
+    
+    return $getLocations;
+    
+    }
+  
+  return false;
+  
+  
+}
+
+function isPointInRange($point){
+  $range=Array(top=>47,'left'=>-8, 'right'=>25,'bottom'=>32);
+  if($point['lat']>$range['bottom'] && $point['lat']<$range['top'] && $point['long']>$range['left'] && $point['long']<$range['right'] ) return true;
+  return false;
+  
+}
+
+function doGeocode3($address){
+
+$delay=10000;
+$base_url = "http://maps.googleapis.com/maps/api/geocode/xml?";
+
+    $request_url = $base_url . "address=" . urlencode($address)."&sensor=false";
+	    
+    $r_default_context = stream_context_get_default ( array
+                    ('http' => array(
+                        'proxy' => "proxy.sardegnait.csr:80",
+                        'request_fulluri' => True,
+                    ),
+                )
+            );
+        libxml_set_streams_context($r_default_context); 
+    
+    $xml = simplexml_load_file($request_url);
+	
+    $status = (string)$xml->status;
+    
+    if (strcmp($status, "OK") == 0) {
+	      // Successful geocode
+      $lat=(string)$xml->result->geometry->location->lat;
+      $lng=(string)$xml->result->geometry->location->lng;
+      return Array("lat"=>$lat,"long"=>$lng);
+      
+    } else if (strcmp($status, "620") == 0) {
+      usleep($delay);
+      return doGeocode($address);
+    } 
+    
+    
+    return false;
+  
+}
+
+function doGeospatial($coords){
+  
+$wkt='GEOMETRYCOLLECTION(POINT('.$coords['long'].' '.$coords['lat'].'))';
+$geometry = new PostgisGeometry($geo_type, '4326');
+    
+    $geometry->fromText($wkt);
+$geospatial=array(
+        'und' => array(
+          array(
+            'wkt' => $wkt ,
+            'geometry' => $geometry->getGeometry(),
+          ),
+        ));
+
+return $geospatial;
+  
+}
+
+function doRetrieveCoordsFromGeospatial($node){
+    if(empty($node->field_geospatial))return false;
+    $tmp=current($node->field_geospatial);    
+    $geos=current($tmp);
+    $geometry=$geos['geometry'];
+    if(empty($geometry))return false;
+    $wkb = pack('H*',$geometry);
+    $geom = geoPHP::load($wkb, 'ewkb');
+    $point=$geom->asArray();
+    return Array('long'=>$point[0],'lat'=>$point[1]);   
+  }
+
+?>

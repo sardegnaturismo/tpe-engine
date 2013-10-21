@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * @file
+ * Cartaro install file.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function cartaro_install() {
+
+  theme_enable(array('seven', 'frontmap'));
+  theme_disable(array('bartik'));
+
+  $theme_frontmap_settings = variable_get('theme_frontmap_settings', array());
+  $theme_frontmap_settings['frontmap'] = 'frontmap';
+
+  $variables = array(
+    'admin_theme' => 'seven',
+    'theme_default' => 'frontmap',
+    'node_admin_theme' => 1,
+    'openlayers_source' => 'profiles/cartaro/libraries/openlayers/OpenLayers.js',
+    'ole_source' => 'profiles/cartaro/libraries/ole/lib/loader.js',
+    'ole_css' => 'profiles/cartaro/libraries/ole/theme/geosilk/geosilk.css',
+    'theme_frontmap_settings' => $theme_frontmap_settings,
+  );
+  foreach ($variables as $key => $variable) {
+    variable_set($key, $variable);
+  }
+}
+

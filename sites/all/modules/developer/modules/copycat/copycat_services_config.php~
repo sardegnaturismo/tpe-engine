@@ -1,0 +1,26 @@
+<?php
+
+require_once 'copycat_services.inc';
+
+$GLOBALS['copycat_services_config'] = Array(
+    'accommodation_turismo' => Array(
+        'id' => '1',
+        'importer' => 'accommodation_turismo',
+        'domain' => 'http://sardegnaturismo.sip.sardegnait.csr',
+        'server' => 'http://sardegnaturismo.sip.sardegnait.csr/services/rpc/services/rpc',
+        //'user' => 'services',
+        //'password' => '.s4rd3gn4IT!',
+        'source_image_path' => 'default/files',
+        'user' => 'admin',
+        'password' => 'maidireturismo80',
+        'source_structure' => 'accommodation',
+        'target_structure' => 'accommodation',
+        'nodes_for_page' => '10',
+        'default_text_type' => 'filtered_html',
+        'target_image_dir' => 'public://accomodation',
+        'exclude_nodes' => Array('empty_geofield'),
+        'field_map' => Array(
+        )
+    ),
+);
+?>

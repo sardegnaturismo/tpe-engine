@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the TPE -  Content type - scheda prodotto feature.
+ */
+
+include_once('tpe_ct_prodotto.features.inc');

@@ -1,0 +1,4 @@
+name = Geo Convertitore
+description = Converte al salvataggio i dati da geofield a geospatial
+dependencies[] = geophp
+core = 7.x

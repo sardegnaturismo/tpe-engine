@@ -1,0 +1,43 @@
+<?php
+
+function geo_conv_node_presave($node) {
+
+  $a = count($node->field_geospatial['und']);
+  $b = count($node->field_geopoligono);
+
+  if (isset($node->field_geofield['und'][0]) && count($node->field_geospatial['und']) == 0 && count($node->field_geopoligono) == 0) {
+    if ($node->type == 'scheda_territorio') {
+      $geo_type = 'POLYGON';
+      $geo_field = 'field_geopoligono';
+    } else {
+      $geo_type = 'POINT';
+      $geo_field = 'field_geospatial';
+    }
+
+    $geometry = new PostgisGeometry($geo_type, '4326');
+    $geometry->fromText($node->field_geofield['und'][0]['wkt']);
+    $geo_postgis = array(
+        'wkt' => $node->field_geofield['und'][0]['wkt'],
+        'geometry' => $geometry->getGeometry(),
+    );
+    $node->{'' . $geo_field}['und'][0]['geometry'] = $geo_postgis['geometry'];
+    $node->{'' . $geo_field}['und'][0]['wkt'] = $geo_postgis['wkt'];
+  }
+
+  //$nodo = $node;
+  $node->language = 'it';
+  $node->body['it'] = $node->body['und'];
+  //unset($node->body['und']);
+
+  $campi = field_info_instances('node', $node->type);
+  foreach ($campi as $key => $value) {
+    if ($value['widget']['module'] == 'options' && ($key != 'field_servizi' || $key != 'field_settore_economico')) {
+      
+    } else {
+      if ($key != 'field_geospatial' && $key != 'field_geopoligono' && $key != 'field_immagine' && $key != 'field_image' && $key != 'field_planimetria') {
+        $node->{'' . $key}['it'] = $node->{'' . $key}['und'];
+        unset($node->{'' . $key}['und']);
+      }
+    }
+  }
+}

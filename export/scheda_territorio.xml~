@@ -1,0 +1,2573 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<node_export created="Thu, 06 Sep 2012 15:58:03 +0200">
+  <node>
+    <vid>21</vid>
+    <uid>1</uid>
+    <title>Sardegna Nord-Ovest</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>0</promote>
+    <sticky>0</sticky>
+    <vuuid>4dc91b98-50e8-fbc4-816e-3b26becd4a88</vuuid>
+    <ds_switch></ds_switch>
+    <nid>21</nid>
+    <type>scheda_territorio</type>
+    <language>it</language>
+    <created>1311843261</created>
+    <changed>1330103584</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>5e509e62-d8f4-bb44-d92f-91988109e09c</uuid>
+    <revision_timestamp>1330103584</revision_timestamp>
+    <revision_uid>1</revision_uid>
+    <body>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</value>
+          <summary></summary>
+          <format type="NULL"></format>
+          <safe_value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#039;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</safe_value>
+          <safe_summary></safe_summary>
+        </n0>
+      </en>
+    </body>
+    <field_image>
+      <en _numeric_keys="1">
+        <n0>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>797</width>
+          <height>600</height>
+          <uid>1</uid>
+          <filename>nurra_2.jpg</filename>
+          <uri>public://nurra_2.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>103911</filesize>
+          <status>1</status>
+          <timestamp>1311843261</timestamp>
+          <uuid>61de67cf-ce3d-d444-b90f-311fa7dcb4f3</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/nurra_2.jpg</node_export_file_path>
+        </n0>
+        <n1>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>533</height>
+          <uid>1</uid>
+          <filename>alghero-5_2.jpg</filename>
+          <uri>public://alghero-5_2.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>322178</filesize>
+          <status>1</status>
+          <timestamp>1312187203</timestamp>
+          <uuid>6f263a9d-11c4-a1d4-b570-814110c148f4</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/alghero-5_2.jpg</node_export_file_path>
+        </n1>
+        <n2>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>798</width>
+          <height>600</height>
+          <uid>1</uid>
+          <filename>nurra1_2.jpg</filename>
+          <uri>public://nurra1_2_0.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>98283</filesize>
+          <status>1</status>
+          <timestamp>1311844255</timestamp>
+          <uuid>5adb20d9-d7d2-3064-7d09-dbfc6fd6e414</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/nurra1_2_0.jpg</node_export_file_path>
+        </n2>
+        <n3>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>600</height>
+          <uid>1</uid>
+          <filename>nurra2_2.png</filename>
+          <uri>public://nurra2_2_0.png</uri>
+          <filemime>image/png</filemime>
+          <filesize>1201357</filesize>
+          <status>1</status>
+          <timestamp>1311844255</timestamp>
+          <uuid>f78d9bea-684c-d964-b96c-638b733ceaaa</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/nurra2_2_0.png</node_export_file_path>
+        </n3>
+        <n4>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>600</height>
+          <uid>1</uid>
+          <filename>nurra3_2.jpg</filename>
+          <uri>public://nurra3_2_0.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>311546</filesize>
+          <status>1</status>
+          <timestamp>1311844255</timestamp>
+          <uuid>3e99da13-f8e1-a5d4-ad5c-ede123a1a0ae</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/nurra3_2_0.jpg</node_export_file_path>
+        </n4>
+        <n5>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>544</height>
+          <uid>1</uid>
+          <filename>bosa_2.jpg</filename>
+          <uri>public://bosa_2.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>135953</filesize>
+          <status>1</status>
+          <timestamp>1311957457</timestamp>
+          <uuid>3f87d2d4-9cda-a164-8111-f7607135229c</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/bosa_2.jpg</node_export_file_path>
+        </n5>
+      </en>
+    </field_image>
+    <field_geofield>
+      <en _numeric_keys="1">
+        <n0>
+          <wkt>POLYGON ((8.0810325756878 40.891968447633, 8.866555036594 40.891968447633, 8.8555687084693 40.278733461689, 8.0755394116255 40.282924112523, 8.0810325756878 40.891968447633))</wkt>
+          <geo_type>polygon</geo_type>
+          <lat>-40.5868</lat>
+          <lon>-8.47013</lon>
+          <left>8.07554</left>
+          <top>40.892</top>
+          <right>8.86656</right>
+          <bottom>40.2787</bottom>
+          <srid type="NULL"></srid>
+          <accuracy type="NULL"></accuracy>
+          <source type="NULL"></source>
+        </n0>
+      </en>
+    </field_geofield>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>7</lid>
+          <name></name>
+          <street></street>
+          <additional></additional>
+          <city></city>
+          <province>SS</province>
+          <postal_code></postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Sassari</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>3</nid>
+        </n0>
+        <n1>
+          <nid>31</nid>
+        </n1>
+        <n2>
+          <nid>14</nid>
+        </n2>
+        <n3>
+          <nid>42</nid>
+        </n3>
+        <n4>
+          <nid>13</nid>
+        </n4>
+      </en>
+    </field_ref_porto>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1311843261</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>1</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>admin</name>
+    <picture>0</picture>
+    <data>a:2:{s:7:&quot;overlay&quot;;i:0;s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>22</vid>
+    <uid>1</uid>
+    <title>Sardegna Sud-Est</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>0</promote>
+    <sticky>0</sticky>
+    <vuuid>0eac3719-be4d-ca44-2de3-542a6bd78459</vuuid>
+    <ds_switch></ds_switch>
+    <nid>22</nid>
+    <type>scheda_territorio</type>
+    <language>it</language>
+    <created>1311857453</created>
+    <changed>1317283969</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>27ed3650-0db2-5ae4-edcc-aa97e542bddb</uuid>
+    <revision_timestamp>1317283969</revision_timestamp>
+    <revision_uid>1</revision_uid>
+    <body>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</value>
+          <summary></summary>
+          <format type="NULL"></format>
+          <safe_value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#039;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</safe_value>
+          <safe_summary></safe_summary>
+        </n0>
+      </en>
+    </body>
+    <field_image>
+      <en _numeric_keys="1">
+        <n0>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>533</height>
+          <uid>1</uid>
+          <filename>nurra5_2.jpg</filename>
+          <uri>public://nurra5_2.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>470596</filesize>
+          <status>1</status>
+          <timestamp>1311857453</timestamp>
+          <uuid>51af390c-cdab-c7b4-91a3-79931ba02db1</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/nurra5_2.jpg</node_export_file_path>
+        </n0>
+        <n1>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>531</height>
+          <uid>1</uid>
+          <filename>sud-est3_2.JPG</filename>
+          <uri>public://sud-est3_2_0.JPG</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>78852</filesize>
+          <status>1</status>
+          <timestamp>1311857562</timestamp>
+          <uuid>fc70a2bb-c5fc-2ad4-1999-782993ed8c8b</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/sud-est3_2_0.JPG</node_export_file_path>
+        </n1>
+        <n2>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>534</height>
+          <uid>1</uid>
+          <filename>sud-est_2.JPG</filename>
+          <uri>public://sud-est_2_0.JPG</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>77657</filesize>
+          <status>1</status>
+          <timestamp>1311857562</timestamp>
+          <uuid>57d7845e-bab6-4164-b52f-f0010fa33268</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/sud-est_2_0.JPG</node_export_file_path>
+        </n2>
+        <n3>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>796</width>
+          <height>600</height>
+          <uid>1</uid>
+          <filename>sud-est2_2.png</filename>
+          <uri>public://sud-est2_2_0.png</uri>
+          <filemime>image/png</filemime>
+          <filesize>956944</filesize>
+          <status>1</status>
+          <timestamp>1311857562</timestamp>
+          <uuid>18dcc1e5-986d-e4b4-c12f-fea3dc1db897</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/sud-est2_2_0.png</node_export_file_path>
+        </n3>
+        <n4>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>600</height>
+          <uid>1</uid>
+          <filename>nurra4_2.jpeg</filename>
+          <uri>public://nurra4_2_1.jpeg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>24420</filesize>
+          <status>1</status>
+          <timestamp>1311857620</timestamp>
+          <uuid>f18c224a-343e-2d74-a594-2d0e1ba95773</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/nurra4_2_1.jpeg</node_export_file_path>
+        </n4>
+      </en>
+    </field_image>
+    <field_geofield>
+      <en _numeric_keys="1">
+        <n0>
+          <wkt>POLYGON ((9.0429245266594 39.621494031222, 9.7680221828805 39.629955997433, 9.7570358547564 39.018053069041, 9.0429245266594 39.018053069041, 9.0429245266594 39.621494031222))</wkt>
+          <geo_type>polygon</geo_type>
+          <lat>-39.3227</lat>
+          <lon>-9.40356</lon>
+          <left>9.04292</left>
+          <top>39.63</top>
+          <right>9.76802</right>
+          <bottom>39.0181</bottom>
+          <srid type="NULL"></srid>
+          <accuracy type="NULL"></accuracy>
+          <source type="NULL"></source>
+        </n0>
+      </en>
+    </field_geofield>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>8</lid>
+          <name></name>
+          <street></street>
+          <additional></additional>
+          <city></city>
+          <province>CA</province>
+          <postal_code></postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Cagliari</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>2</nid>
+        </n0>
+        <n1>
+          <nid>40</nid>
+        </n1>
+        <n2>
+          <nid>41</nid>
+        </n2>
+        <n3>
+          <nid>11</nid>
+        </n3>
+      </en>
+    </field_ref_porto>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1311857453</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>1</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>admin</name>
+    <picture>0</picture>
+    <data>a:2:{s:7:&quot;overlay&quot;;i:0;s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>23</vid>
+    <uid>1</uid>
+    <title>Sardegna Nord-Est</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>0</promote>
+    <sticky>0</sticky>
+    <vuuid>df55202c-a6e5-7804-d11d-7acb81ff5bba</vuuid>
+    <ds_switch></ds_switch>
+    <nid>23</nid>
+    <type>scheda_territorio</type>
+    <language>it</language>
+    <created>1311859487</created>
+    <changed>1330103552</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>01e87508-8fac-f134-3d89-9e3396b063f9</uuid>
+    <revision_timestamp>1330103552</revision_timestamp>
+    <revision_uid>1</revision_uid>
+    <body>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</value>
+          <summary></summary>
+          <format type="NULL"></format>
+          <safe_value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#039;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</safe_value>
+          <safe_summary></safe_summary>
+        </n0>
+      </en>
+    </body>
+    <field_image>
+      <en _numeric_keys="1">
+        <n0>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>515</height>
+          <uid>1</uid>
+          <filename>nord-est6_2.jpg</filename>
+          <uri>public://nord-est6_2.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>88771</filesize>
+          <status>1</status>
+          <timestamp>1311861580</timestamp>
+          <uuid>9a14ab25-675e-7194-455f-26c46b15a419</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/nord-est6_2.jpg</node_export_file_path>
+        </n0>
+        <n1>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>600</height>
+          <uid>1</uid>
+          <filename>nord-est3_2.jpg</filename>
+          <uri>public://nord-est3_2.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>247236</filesize>
+          <status>1</status>
+          <timestamp>1311861580</timestamp>
+          <uuid>6abe259e-6c5c-b624-15ce-de75e33c32e7</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/nord-est3_2.jpg</node_export_file_path>
+        </n1>
+        <n2>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>600</height>
+          <uid>1</uid>
+          <filename>nord-est4_2.jpg</filename>
+          <uri>public://nord-est4_2.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>249376</filesize>
+          <status>1</status>
+          <timestamp>1311861580</timestamp>
+          <uuid>4291a70b-e63e-8024-35d2-dc11de644640</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/nord-est4_2.jpg</node_export_file_path>
+        </n2>
+        <n3>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>533</height>
+          <uid>1</uid>
+          <filename>nord-est_2.JPG</filename>
+          <uri>public://nord-est_2.JPG</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>241211</filesize>
+          <status>1</status>
+          <timestamp>1311861580</timestamp>
+          <uuid>7cedcb22-87d3-94e4-7130-6c8547e73e1b</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/nord-est_2.JPG</node_export_file_path>
+        </n3>
+        <n4>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>600</height>
+          <uid>1</uid>
+          <filename>nord_est5_2.jpg</filename>
+          <uri>public://nord_est5_2.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>173617</filesize>
+          <status>1</status>
+          <timestamp>1311861580</timestamp>
+          <uuid>99e4dd5d-fa7a-ea44-8112-4149b1565726</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/nord_est5_2.jpg</node_export_file_path>
+        </n4>
+        <n5>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>533</height>
+          <uid>1</uid>
+          <filename>nord-est7_2.JPG</filename>
+          <uri>public://nord-est7_2.JPG</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>188289</filesize>
+          <status>1</status>
+          <timestamp>1311861854</timestamp>
+          <uuid>9fcbb13e-8cc8-02a4-ed08-e645d1b62502</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/nord-est7_2.JPG</node_export_file_path>
+        </n5>
+      </en>
+    </field_image>
+    <field_geofield>
+      <en _numeric_keys="1">
+        <n0>
+          <wkt>POLYGON ((9.0582609121205 40.610056276932, 9.816317552715 40.610056276932, 9.8218107167776 41.364712310799, 9.0527677480579 41.36883489991, 9.0582609121205 40.610056276932))</wkt>
+          <geo_type>polygon</geo_type>
+          <lat>40.9893</lat>
+          <lon>9.43694</lon>
+          <left>9.05277</left>
+          <top>41.3688</top>
+          <right>9.82181</right>
+          <bottom>40.6101</bottom>
+          <srid type="NULL"></srid>
+          <accuracy type="NULL"></accuracy>
+          <source type="NULL"></source>
+        </n0>
+      </en>
+    </field_geofield>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>9</lid>
+          <name></name>
+          <street></street>
+          <additional></additional>
+          <city></city>
+          <province>OT</province>
+          <postal_code></postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Olbia-Tempio</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>7</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1311859487</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>1</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>admin</name>
+    <picture>0</picture>
+    <data>a:2:{s:7:&quot;overlay&quot;;i:0;s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>54</vid>
+    <uid>1</uid>
+    <title>Sardegna Sud-Ovest</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>0</promote>
+    <sticky>0</sticky>
+    <vuuid>5421f0e3-a083-7594-61ea-80f65390b4f1</vuuid>
+    <ds_switch></ds_switch>
+    <nid>54</nid>
+    <type>scheda_territorio</type>
+    <language>it</language>
+    <created>1314895175</created>
+    <changed>1346829088</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>770dc60e-2698-4304-f9ac-0540020b11a3</uuid>
+    <revision_timestamp>1346829088</revision_timestamp>
+    <revision_uid>0</revision_uid>
+    <body>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </value>
+          <summary></summary>
+          <format type="NULL"></format>
+          <safe_value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#039;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </safe_value>
+          <safe_summary></safe_summary>
+        </n0>
+      </en>
+    </body>
+    <field_image>
+      <en _numeric_keys="1">
+        <n0>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>2126</width>
+          <height>1417</height>
+          <uid>1</uid>
+          <filename>bisuperr2008.jpg</filename>
+          <uri>public://bisuperr2008.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>823964</filesize>
+          <status>1</status>
+          <timestamp>1314895175</timestamp>
+          <uuid>580ebe37-f62d-81a4-512a-38d6a0485715</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/bisuperr2008.jpg</node_export_file_path>
+        </n0>
+        <n1>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>1024</width>
+          <height>768</height>
+          <uid>1</uid>
+          <filename>san_teodoro.jpg</filename>
+          <uri>public://san_teodoro.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>161071</filesize>
+          <status>1</status>
+          <timestamp>1314895175</timestamp>
+          <uuid>5f5dca8c-1e72-3a74-8903-e5716f473197</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/san_teodoro.jpg</node_export_file_path>
+        </n1>
+        <n2>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>800</width>
+          <height>565</height>
+          <uid>1</uid>
+          <filename>nurra6_2.jpg</filename>
+          <uri>public://nurra6_2.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>401485</filesize>
+          <status>1</status>
+          <timestamp>1314895175</timestamp>
+          <uuid>faac73c9-bd47-0694-a92d-b0a0117ba21d</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/nurra6_2.jpg</node_export_file_path>
+        </n2>
+      </en>
+    </field_image>
+    <field_geofield>
+      <en _numeric_keys="1">
+        <n0>
+          <wkt>POLYGON ((8.2035205195148 39.426925953919, 9.01101563667 39.422682711467, 8.9917895624521 38.841058944351, 8.1980273554525 38.849615556995, 8.2035205195148 39.426925953919))</wkt>
+          <geo_type>polygon</geo_type>
+          <lat>-39.1359</lat>
+          <lon>-8.60161</lon>
+          <left>8.19803</left>
+          <top>39.4269</top>
+          <right>9.01102</right>
+          <bottom>38.8411</bottom>
+          <srid type="NULL"></srid>
+          <accuracy type="NULL"></accuracy>
+          <source type="NULL"></source>
+        </n0>
+      </en>
+    </field_geofield>
+    <field_location _numeric_keys="1"></field_location>
+    <field_ref_porto _numeric_keys="1"></field_ref_porto>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1314895175</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>1</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>admin</name>
+    <picture>0</picture>
+    <data>a:2:{s:7:&quot;overlay&quot;;i:0;s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>76</vid>
+    <uid>1</uid>
+    <title>Liguria - Area marina protetta Portofino</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>0</promote>
+    <sticky>0</sticky>
+    <vuuid>0f2abfb1-41b1-ed74-ad23-0410d65caff6</vuuid>
+    <ds_switch></ds_switch>
+    <nid>66</nid>
+    <type>scheda_territorio</type>
+    <language>it</language>
+    <created>1317629740</created>
+    <changed>1317629740</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>5be04bac-8114-1664-c960-d48b9a8b6866</uuid>
+    <revision_timestamp>1317629740</revision_timestamp>
+    <revision_uid>1</revision_uid>
+    <body>
+      <en _numeric_keys="1">
+        <n0>
+          <value>L'Area naturale marina protetta di Portofino è stata istituita con decreto del Ministero dell'Ambiente il 26 aprile 1999[2] con sede a Santa Margherita Ligure, è situata in provincia di Genova fra i comuni di Camogli, Santa Margherita Ligure e Portofino. L'area è stata dichiarata Area Specialmente Protetta di Interesse Mediterraneo.[3]
+
+Attualmente è in vaglio, su espressiva richiesta degli stessi comuni della riserva, presso la Camera dei deputati la proposta di trasformare il parco regionale di Portofino in area nazionale, accorpando nei nuovi confini territoriali anche l'Area marina protetta. La proposta, esposta alla Camera in una audizione del 24 gennaio 2007[4] ma già avanzata nel 2004, è stata accolta positivamente dalle amministrazioni comunali e dagli altri enti interessati, specie dopo il recente consenso di Santa Margherita Ligure, sede dell'ente parco regionale e della riserva marina protetta.</value>
+          <summary></summary>
+          <format type="NULL"></format>
+          <safe_value>L&amp;#039;Area naturale marina protetta di Portofino è stata istituita con decreto del Ministero dell&amp;#039;Ambiente il 26 aprile 1999[2] con sede a Santa Margherita Ligure, è situata in provincia di Genova fra i comuni di Camogli, Santa Margherita Ligure e Portofino. L&amp;#039;area è stata dichiarata Area Specialmente Protetta di Interesse Mediterraneo.[3]
+
+Attualmente è in vaglio, su espressiva richiesta degli stessi comuni della riserva, presso la Camera dei deputati la proposta di trasformare il parco regionale di Portofino in area nazionale, accorpando nei nuovi confini territoriali anche l&amp;#039;Area marina protetta. La proposta, esposta alla Camera in una audizione del 24 gennaio 2007[4] ma già avanzata nel 2004, è stata accolta positivamente dalle amministrazioni comunali e dagli altri enti interessati, specie dopo il recente consenso di Santa Margherita Ligure, sede dell&amp;#039;ente parco regionale e della riserva marina protetta.</safe_value>
+          <safe_summary></safe_summary>
+        </n0>
+      </en>
+    </body>
+    <field_image>
+      <en _numeric_keys="1">
+        <n0>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>1039</width>
+          <height>733</height>
+          <uid>1</uid>
+          <filename>PromontorioPortofinoZone.png</filename>
+          <uri>public://PromontorioPortofinoZone.png</uri>
+          <filemime>image/png</filemime>
+          <filesize>34705</filesize>
+          <status>1</status>
+          <timestamp>1317629740</timestamp>
+          <uuid>51022608-effc-bd44-61ed-7c64a03f4ace</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/PromontorioPortofinoZone.png</node_export_file_path>
+        </n0>
+      </en>
+    </field_image>
+    <field_geofield>
+      <en _numeric_keys="1">
+        <n0>
+          <wkt>POLYGON ((9.2180647252866 44.29876421284, 9.2177214025321 44.297044156243, 9.202271878607 44.299255648327, 9.1744627355417 44.306872372401, 9.1737760900346 44.314979412129, 9.1696562169872 44.309329169363, 9.1524900792934 44.313751144758, 9.1397871373986 44.322348476483, 9.1432203649379 44.325541450286, 9.1487135290005 44.325787056457, 9.1432203649379 44.323085332016, 9.1469969152308 44.322594096022, 9.1569532750934 44.315470711879, 9.1655363439408 44.317435869746, 9.1672529577104 44.313996800289, 9.1765226720658 44.316698943258, 9.1782392858346 44.309574843403, 9.1888822912052 44.308592141072, 9.1967787145454 44.306872372401, 9.2115415929625 44.30072993011, 9.2180647252866 44.29876421284))</wkt>
+          <geo_type>polygon</geo_type>
+          <lat>-44.3096</lat>
+          <lon>-9.17785</lon>
+          <left>9.13979</left>
+          <top>44.3258</top>
+          <right>9.21806</right>
+          <bottom>44.297</bottom>
+          <srid type="NULL"></srid>
+          <accuracy type="NULL"></accuracy>
+          <source type="NULL"></source>
+        </n0>
+      </en>
+    </field_geofield>
+    <field_location _numeric_keys="1"></field_location>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>61</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1317629740</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>1</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>admin</name>
+    <picture>0</picture>
+    <data>a:2:{s:7:&quot;overlay&quot;;i:0;s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>114</vid>
+    <uid>10</uid>
+    <title>La Maremma</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>0</promote>
+    <sticky>0</sticky>
+    <vuuid>6612ed5c-b422-6544-695d-07ef9b53c318</vuuid>
+    <ds_switch></ds_switch>
+    <nid>103</nid>
+    <type>scheda_territorio</type>
+    <language>it</language>
+    <created>1329993200</created>
+    <changed>1338279228</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>aa819263-0e3d-a774-fdf6-ee38a231643c</uuid>
+    <revision_timestamp>1338279228</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <body>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Se provate a percorrerla, da Capalbio arroccata tra i boschi a Follonica con le sue ferriere, dall'Argentario con le sue fortezze spagnole a Castiglione della Pescaia con la sua dolce vita, vi accorgerete subito che la Costa Maremmana non è un luogo comune.
+
+Come del resto la Maremma intera. Lasciatevi trasportare da un sogno che ha il profumo del popolo Etrusco, di antichi borghi nascosti tra i colli dove le uve donano vini pregiati. Fermatevi a contemplare immensi panorami o immergetevi nella natura selvaggia del Parco della Maremma con i suoi butteri.
+
+Vi attendono lunghe serate dedicate alla serenità e al buon cibo, se avrete la pazienza di attendere il rientro dei pescherecci sul porto o se cercherete nei paesi la vecchia cucina contadina, là dove le tradizioni rimangono e le contrade si sfidano rievocando contese medievali. E sotto il sole dell'estate concedetevi una placida crociera sulle isole. Non c'è fretta.
+
+La Maremma, certamente, non è un luogo comune
+</value>
+          <summary></summary>
+          <format type="NULL"></format>
+          <safe_value>Se provate a percorrerla, da Capalbio arroccata tra i boschi a Follonica con le sue ferriere, dall&amp;#039;Argentario con le sue fortezze spagnole a Castiglione della Pescaia con la sua dolce vita, vi accorgerete subito che la Costa Maremmana non è un luogo comune.
+
+Come del resto la Maremma intera. Lasciatevi trasportare da un sogno che ha il profumo del popolo Etrusco, di antichi borghi nascosti tra i colli dove le uve donano vini pregiati. Fermatevi a contemplare immensi panorami o immergetevi nella natura selvaggia del Parco della Maremma con i suoi butteri.
+
+Vi attendono lunghe serate dedicate alla serenità e al buon cibo, se avrete la pazienza di attendere il rientro dei pescherecci sul porto o se cercherete nei paesi la vecchia cucina contadina, là dove le tradizioni rimangono e le contrade si sfidano rievocando contese medievali. E sotto il sole dell&amp;#039;estate concedetevi una placida crociera sulle isole. Non c&amp;#039;è fretta.
+
+La Maremma, certamente, non è un luogo comune
+</safe_value>
+          <safe_summary></safe_summary>
+        </n0>
+      </en>
+    </body>
+    <field_image>
+      <en _numeric_keys="1">
+        <n0>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>900</width>
+          <height>242</height>
+          <uid>10</uid>
+          <filename>maremma1.jpg</filename>
+          <uri>public://maremma1_0.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>53203</filesize>
+          <status>1</status>
+          <timestamp>1330005049</timestamp>
+          <uuid>f17cfddf-e255-f034-d5fc-14b04fbb9603</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/maremma1_0.jpg</node_export_file_path>
+        </n0>
+        <n1>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>900</width>
+          <height>180</height>
+          <uid>10</uid>
+          <filename>maremma2.jpg</filename>
+          <uri>public://maremma2.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>100555</filesize>
+          <status>1</status>
+          <timestamp>1330006756</timestamp>
+          <uuid>ec3cff42-21bf-30d4-3dac-1dd059c24cb1</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/maremma2.jpg</node_export_file_path>
+        </n1>
+      </en>
+    </field_image>
+    <field_geofield>
+      <en _numeric_keys="1">
+        <n0>
+          <wkt>POLYGON ((10.55236816365 42.952402084291, 10.653991698803 43.024729552763, 10.936889648011 43.010672543872, 11.126403808159 42.946370953742, 11.348876952682 42.861873079351, 11.420288085491 42.755079543677, 11.472473144083 42.654161928946, 11.552124022986 42.528796291812, 11.747131347197 42.380865194434, 11.804809569851 42.305753001659, 11.68121337845 42.254950724913, 11.461486815958 42.370720142143, 11.291198730028 42.409262621682, 11.211547851125 42.415346112864, 11.189575194876 42.364632324114, 11.153869628471 42.360573450996, 11.096191405817 42.397093869146, 11.079711913629 42.425483953558, 11.096191405817 42.455887640581, 11.12915039019 42.437647198719, 11.162109374564 42.441701089232, 11.189575194876 42.508552414137, 11.156616210502 42.555103527542, 11.123657226128 42.553080287564, 11.076965331599 42.629917292451, 11.013793944883 42.658201783163, 10.986328124571 42.704641242593, 10.936889648011 42.742978092071, 10.835266112858 42.775243379304, 10.774841308173 42.779275358846, 10.
+725402831613 42.809506836927, 10.755615233955 42.819580714399, 10.763854980049 42.841737468391, 10.766601562079 42.875964100985, 10.785827636297 42.894076401951, 10.774841308173 42.912183384982, 10.755615233955 42.928274016371, 10.711669921457 42.944360445568, 10.634765624585 42.956422509674, 10.55236816365 42.952402084291))</wkt>
+          <geo_type>polygon</geo_type>
+          <lat>-42.6723</lat>
+          <lon>-11.2147</lon>
+          <left>10.5524</left>
+          <top>43.0247</top>
+          <right>11.8048</right>
+          <bottom>42.255</bottom>
+          <srid type="NULL"></srid>
+          <accuracy type="NULL"></accuracy>
+          <source type="NULL"></source>
+        </n0>
+      </en>
+    </field_geofield>
+    <field_location _numeric_keys="1"></field_location>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>67</nid>
+        </n0>
+        <n1>
+          <nid>101</nid>
+        </n1>
+        <n2>
+          <nid>102</nid>
+        </n2>
+        <n3>
+          <nid>99</nid>
+        </n3>
+        <n4>
+          <nid>100</nid>
+        </n4>
+        <n5>
+          <nid>289</nid>
+        </n5>
+        <n6>
+          <nid>193</nid>
+        </n6>
+      </en>
+    </field_ref_porto>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1329993200</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>128</vid>
+    <uid>10</uid>
+    <title>L'Arcipelago Toscano</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>0</promote>
+    <sticky>0</sticky>
+    <vuuid>fbcf3483-f994-1634-b918-1afcfc29376c</vuuid>
+    <ds_switch></ds_switch>
+    <nid>117</nid>
+    <type>scheda_territorio</type>
+    <language>it</language>
+    <created>1330077186</created>
+    <changed>1338280466</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>77ff4dfc-0964-1514-8daa-9419dfdd7650</uuid>
+    <revision_timestamp>1338280466</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <body>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Quando Venere uscì dal mare, dalla sua collana si sfilarono sette perle, che diedero origine all'Arcipelago Toscano. Questo mito è ancora vivo ed attuale, perché le isole della Toscana sono altrettanti frammenti di paradiso.
+
+L'Elba, la più grande, è un microcosmo che racchiude infinite possibilità per gli ospiti che desiderano una vacanza all'insegna della natura ma anche della storia, della cultura, dell'eno-gastronomia, della mineralogia.
+
+Coste mai uguali, dove si alternano incantevoli spiagge e scogliere maestose, ma anche una dolce campagna e boschi ombrosi di castagni e di lecci secolari.
+
+E' un'isola ricca di ricordi del passato: la sua storia può raccontare di abitanti preistorici, di miniere di ferro che arricchirono prima gli Etruschi e poi i Romani, di incursioni piratesche, di sanguinose battaglie e più vicino a noi, dell'esilio di Napoleone, che lasciò un'impronta significativa in questo suo minuscolo regno.
+
+Capraia conquista i visitatori con la sua bellezza selvaggia: un lembo di macchia fragrante d'aromi nostrani in un mare limpidissimo, autentico paradiso per appassionati di sport e di fotografia naturalistica.
+
+Isola del Giglio, granito e macchia mediterranea di appena 21 chilometri quadrati con un pugno di calette annegate tra le rocce accoglie poco più di mille abitanti in inverno, oltre 20.000 in piena estate. 
+
+Giannutri  è la più piccola delle isole dell’arcipelago toscano, già nota ai Greci con il nome di Artemisia, oggi è parte integrante del Parco Nazionale dell’Arcipelago.
+ La sua straordinaria bellezza è esaltata dalla trasparenza delle acque che la circondano e dalle vestigia del passato, immerse in uno scenario naturalistico che offre uno dei più singolari esempi di biodiversità. 
+</value>
+          <summary></summary>
+          <format type="NULL"></format>
+          <safe_value>Quando Venere uscì dal mare, dalla sua collana si sfilarono sette perle, che diedero origine all&amp;#039;Arcipelago Toscano. Questo mito è ancora vivo ed attuale, perché le isole della Toscana sono altrettanti frammenti di paradiso.
+
+L&amp;#039;Elba, la più grande, è un microcosmo che racchiude infinite possibilità per gli ospiti che desiderano una vacanza all&amp;#039;insegna della natura ma anche della storia, della cultura, dell&amp;#039;eno-gastronomia, della mineralogia.
+
+Coste mai uguali, dove si alternano incantevoli spiagge e scogliere maestose, ma anche una dolce campagna e boschi ombrosi di castagni e di lecci secolari.
+
+E&amp;#039; un&amp;#039;isola ricca di ricordi del passato: la sua storia può raccontare di abitanti preistorici, di miniere di ferro che arricchirono prima gli Etruschi e poi i Romani, di incursioni piratesche, di sanguinose battaglie e più vicino a noi, dell&amp;#039;esilio di Napoleone, che lasciò un&amp;#039;impronta significativa in questo suo minuscolo regno.
+
+Capraia conquista i visitatori con la sua bellezza selvaggia: un lembo di macchia fragrante d&amp;#039;aromi nostrani in un mare limpidissimo, autentico paradiso per appassionati di sport e di fotografia naturalistica.
+
+Isola del Giglio, granito e macchia mediterranea di appena 21 chilometri quadrati con un pugno di calette annegate tra le rocce accoglie poco più di mille abitanti in inverno, oltre 20.000 in piena estate. 
+
+Giannutri  è la più piccola delle isole dell’arcipelago toscano, già nota ai Greci con il nome di Artemisia, oggi è parte integrante del Parco Nazionale dell’Arcipelago.
+ La sua straordinaria bellezza è esaltata dalla trasparenza delle acque che la circondano e dalle vestigia del passato, immerse in uno scenario naturalistico che offre uno dei più singolari esempi di biodiversità. 
+</safe_value>
+          <safe_summary></safe_summary>
+        </n0>
+      </en>
+    </body>
+    <field_image>
+      <en _numeric_keys="1">
+        <n0>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>934</width>
+          <height>1015</height>
+          <uid>10</uid>
+          <filename>arcipelago.jpg</filename>
+          <uri>public://arcipelago.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>163217</filesize>
+          <status>1</status>
+          <timestamp>1330077186</timestamp>
+          <uuid>d563d4fa-469a-a4b4-0944-8c8ee8c84946</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/arcipelago.jpg</node_export_file_path>
+        </n0>
+      </en>
+    </field_image>
+    <field_geofield>
+      <en _numeric_keys="1">
+        <n0>
+          <wkt>POLYGON ((9.7668457027558 43.07691312468, 9.8767089840011 43.084937425669, 10.008544921496 42.952402084285, 10.23376464805 42.875964100979, 10.415039062104 42.888039559159, 10.5468749996 42.843751324887, 10.563354491786 42.726839148153, 10.678710937094 42.581399678266, 10.876464843336 42.443727936129, 10.953369140208 42.403178540432, 11.162109374575 42.309815414293, 11.228027343322 42.183758733261, 11.085205077703 42.143041561518, 10.255737304299 42.289500729511, 9.9975585933714 42.56117285392, 9.7283935543198 43.044805411637, 9.7668457027558 43.07691312468))</wkt>
+          <geo_type>polygon</geo_type>
+          <lat>-42.5575</lat>
+          <lon>-10.4175</lon>
+          <left>9.72839</left>
+          <top>43.0849</top>
+          <right>11.228</right>
+          <bottom>42.143</bottom>
+          <srid type="NULL"></srid>
+          <accuracy type="NULL"></accuracy>
+          <source type="NULL"></source>
+        </n0>
+      </en>
+    </field_geofield>
+    <field_location _numeric_keys="1"></field_location>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>329</nid>
+        </n0>
+        <n1>
+          <nid>325</nid>
+        </n1>
+        <n2>
+          <nid>328</nid>
+        </n2>
+        <n3>
+          <nid>287</nid>
+        </n3>
+        <n4>
+          <nid>288</nid>
+        </n4>
+        <n5>
+          <nid>336</nid>
+        </n5>
+      </en>
+    </field_ref_porto>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1330077186</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>130</vid>
+    <uid>10</uid>
+    <title>Costa degli Etruschi</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>0</promote>
+    <sticky>0</sticky>
+    <vuuid>83cd9e24-910f-3914-edbe-fbe1b734cabb</vuuid>
+    <ds_switch></ds_switch>
+    <nid>119</nid>
+    <type>scheda_territorio</type>
+    <language>it</language>
+    <created>1330077269</created>
+    <changed>1338282472</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>3cee2b2f-2cbb-e6e4-fd0d-e47528c57307</uuid>
+    <revision_timestamp>1338282472</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <body>
+      <en _numeric_keys="1">
+        <n0>
+          <value>I colori ed i profumi della Toscana si accompagnano, nella Costa degli Etruschi, alle luci ed agli aromi del Mediterraneo. Insediamenti etruschi, un mare limpido, borghi medievali, parchi ed oasi protette, rendono unica questa terra di Toscana.
+
+Poi, la natura. Un ambiente incredibilmente ricco custodisce oasi botaniche, rifugi faunistici, boschi e folte pinete.
+
+La campagna, tipica della Toscana, é attraversata da una prestigiosa 'Strada del Vino', costellata da vigne nobili olivi d'argento.
+
+Tra mare e natura si snoda il magico percorso che porta a scoprire i tesori architettonici, di cultura e di arte, patrimonio di questa terra.
+
+Infine Livorno, città dalla storia originale, crocevia di popoli e culture, patria di artisti, è terra di tradizioni turistiche antiche.
+</value>
+          <summary></summary>
+          <format type="NULL"></format>
+          <safe_value>I colori ed i profumi della Toscana si accompagnano, nella Costa degli Etruschi, alle luci ed agli aromi del Mediterraneo. Insediamenti etruschi, un mare limpido, borghi medievali, parchi ed oasi protette, rendono unica questa terra di Toscana.
+
+Poi, la natura. Un ambiente incredibilmente ricco custodisce oasi botaniche, rifugi faunistici, boschi e folte pinete.
+
+La campagna, tipica della Toscana, é attraversata da una prestigiosa &amp;#039;Strada del Vino&amp;#039;, costellata da vigne nobili olivi d&amp;#039;argento.
+
+Tra mare e natura si snoda il magico percorso che porta a scoprire i tesori architettonici, di cultura e di arte, patrimonio di questa terra.
+
+Infine Livorno, città dalla storia originale, crocevia di popoli e culture, patria di artisti, è terra di tradizioni turistiche antiche.
+</safe_value>
+          <safe_summary></safe_summary>
+        </n0>
+      </en>
+    </body>
+    <field_image>
+      <en _numeric_keys="1">
+        <n0>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>256</width>
+          <height>400</height>
+          <uid>10</uid>
+          <filename>costaetruschi.jpg</filename>
+          <uri>public://costaetruschi.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>25534</filesize>
+          <status>1</status>
+          <timestamp>1330942081</timestamp>
+          <uuid>36aa1c39-84a1-ad24-69c9-33076f77caff</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/costaetruschi.jpg</node_export_file_path>
+        </n0>
+      </en>
+    </field_image>
+    <field_geofield>
+      <en _numeric_keys="1">
+        <n0>
+          <wkt>LINESTRING (10.29693603475 43.554519906225, 10.34362792928 43.586359494966, 10.442504882401 43.608239448232, 10.478210448805 43.600284022125, 10.508422851148 43.562481381388, 10.491943358961 43.512704903238, 10.475463866774 43.462887335966, 10.505676269117 43.411033482718, 10.527648925366 43.379101333596, 10.557861327708 43.33916248597, 10.607299804269 43.261206123394, 10.623779296456 43.171132283341, 10.626525878487 43.094966324011, 10.678710937079 43.036775856209, 10.68145751911 42.976520696705, 10.659484862861 42.95240208429, 10.563354491771 42.950391773103, 10.56060790974 42.93028504983, 10.508422851148 42.928274016369, 10.497436523023 42.944360445566, 10.51391601521 42.962452655269, 10.508422851148 42.986567327722, 10.511169433179 43.010672543871, 10.524902343335 43.034768303158, 10.538635253491 43.119028979995, 10.538635253491 43.219188222077, 10.502929687086 43.29719840324, 10.456237792556 43.327175705371, 10.431518554276 43.377105015594, 10.398559569902 43.419013890837, 10.36834716756 
+43.460893778674, 10.324401855062 43.47684039637, 10.324401855062 43.506728964599, 10.299682616781 43.542575721059, 10.29693603475 43.562481381388)</wkt>
+          <geo_type>linestring</geo_type>
+          <lat>43.2683</lat>
+          <lon>10.4892</lon>
+          <left>10.2969</left>
+          <top>43.6082</top>
+          <right>10.6815</right>
+          <bottom>42.9283</bottom>
+          <srid type="NULL"></srid>
+          <accuracy type="NULL"></accuracy>
+          <source type="NULL"></source>
+        </n0>
+      </en>
+    </field_geofield>
+    <field_location _numeric_keys="1"></field_location>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>312</nid>
+        </n0>
+        <n1>
+          <nid>313</nid>
+        </n1>
+        <n2>
+          <nid>315</nid>
+        </n2>
+        <n3>
+          <nid>316</nid>
+        </n3>
+        <n4>
+          <nid>319</nid>
+        </n4>
+        <n5>
+          <nid>311</nid>
+        </n5>
+        <n6>
+          <nid>320</nid>
+        </n6>
+        <n7>
+          <nid>334</nid>
+        </n7>
+        <n8>
+          <nid>321</nid>
+        </n8>
+        <n9>
+          <nid>322</nid>
+        </n9>
+        <n10>
+          <nid>335</nid>
+        </n10>
+        <n11>
+          <nid>323</nid>
+        </n11>
+        <n12>
+          <nid>324</nid>
+        </n12>
+      </en>
+    </field_ref_porto>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1330077269</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>132</vid>
+    <uid>10</uid>
+    <title>Litorale Pisano</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>0</promote>
+    <sticky>0</sticky>
+    <vuuid>2511a35f-d003-9664-311b-bd7b51daab2f</vuuid>
+    <ds_switch></ds_switch>
+    <nid>121</nid>
+    <type>scheda_territorio</type>
+    <language>it</language>
+    <created>1330077345</created>
+    <changed>1337775906</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>01905fdc-315b-c1e4-0d31-9dcf0cdbba39</uuid>
+    <revision_timestamp>1337775906</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <body>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Terra complessa e articolata, dove convivono realtà diverse, spesso lontane le une dalle altre, la provincia di Pisa gode di una posizione baricentrica non solo in Toscana ma anche nel territorio nazionale. Particolarmente vocata al turismo, grazie a presenze artistiche, monumentali e ambientali di valenza mondiale, la provincia pisana presenta da questo punto di vista anche aspetti meno conosciuti, meritevoli però di essere adeguatamente rappresentati e valorizzati, angoli di una terra davvero unica che sono spesso rimasti in secondo piano di fronte alla inevitabile preponderanza di centri urbani come Pisa o Volterra.
+Dalle città d'arte ai centri produttivi dell'interno, dal mare ai monti che separano e congiungono Pisa e Lucca, dalle colline della Valdera, caratterizzate da una agricoltura specializzata in olio e vini di grande pregio, fino ai paesi della comunità montana della Val di Cecina che si salda con il versante livornese, la provincia di Pisa offre una gamma così vasta di motivi di interesse da farla ritenere, a ragione, un compendio in scala ridotta delle caratteristiche nazionali.
+</value>
+          <summary></summary>
+          <format type="NULL"></format>
+          <safe_value>Terra complessa e articolata, dove convivono realtà diverse, spesso lontane le une dalle altre, la provincia di Pisa gode di una posizione baricentrica non solo in Toscana ma anche nel territorio nazionale. Particolarmente vocata al turismo, grazie a presenze artistiche, monumentali e ambientali di valenza mondiale, la provincia pisana presenta da questo punto di vista anche aspetti meno conosciuti, meritevoli però di essere adeguatamente rappresentati e valorizzati, angoli di una terra davvero unica che sono spesso rimasti in secondo piano di fronte alla inevitabile preponderanza di centri urbani come Pisa o Volterra.
+Dalle città d&amp;#039;arte ai centri produttivi dell&amp;#039;interno, dal mare ai monti che separano e congiungono Pisa e Lucca, dalle colline della Valdera, caratterizzate da una agricoltura specializzata in olio e vini di grande pregio, fino ai paesi della comunità montana della Val di Cecina che si salda con il versante livornese, la provincia di Pisa offre una gamma così vasta di motivi di interesse da farla ritenere, a ragione, un compendio in scala ridotta delle caratteristiche nazionali.
+</safe_value>
+          <safe_summary></safe_summary>
+        </n0>
+      </en>
+    </body>
+    <field_image>
+      <en _numeric_keys="1">
+        <n0>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>1286</width>
+          <height>852</height>
+          <uid>10</uid>
+          <filename>navicelli.jpg</filename>
+          <uri>public://navicelli.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>125867</filesize>
+          <status>1</status>
+          <timestamp>1330942792</timestamp>
+          <uuid>92f933df-b0eb-2e64-e5ed-bceb26d494e3</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/navicelli.jpg</node_export_file_path>
+        </n0>
+      </en>
+    </field_image>
+    <field_geofield>
+      <en _numeric_keys="1">
+        <n0>
+          <wkt>LINESTRING (10.295562743729 43.592327543982, 10.386199950757 43.622158912403, 10.419158935131 43.645019608784, 10.452117919504 43.683763522868, 10.449371337473 43.714542129574, 10.406799315991 43.755225051663, 10.38208007771 43.77803507727, 10.339508056228 43.797862811727, 10.309295653885 43.805792063867, 10.26123046834 43.809756295292, 10.294189452714 43.595311346574)</wkt>
+          <geo_type>linestring</geo_type>
+          <lat>43.701</lat>
+          <lon>10.3567</lon>
+          <left>10.2612</left>
+          <top>43.8098</top>
+          <right>10.4521</right>
+          <bottom>43.5923</bottom>
+          <srid type="NULL"></srid>
+          <accuracy type="NULL"></accuracy>
+          <source type="NULL"></source>
+        </n0>
+      </en>
+    </field_geofield>
+    <field_location _numeric_keys="1"></field_location>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>311</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1330077345</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>133</vid>
+    <uid>10</uid>
+    <title>Litorale della Versilia</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>0</promote>
+    <sticky>0</sticky>
+    <vuuid>b725bc0c-6b39-8f34-fd9d-bb5c65a0368d</vuuid>
+    <ds_switch></ds_switch>
+    <nid>122</nid>
+    <type>scheda_territorio</type>
+    <language>it</language>
+    <created>1330077389</created>
+    <changed>1338282678</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>cf07b7e2-8280-3964-c918-4e62fc0de038</uuid>
+    <revision_timestamp>1338282678</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <body>
+      <en _numeric_keys="1">
+        <n0>
+          <value>La Versilia si estende tra le Alpi Apuane ed il mare, tra il lago di Massaciuccoli e la foce del Cinquale con oltre 20 km. di spiaggia finissima. Ne fanno parte i Comuni di Camaiore, Forte dei Marmi, Massarosa, Pietrasanta, Seravezza, Stazzema e Viareggio. Il clima è temperato, grazie anche al baluardo costituito dal gruppo delle Apuane: in media 270 giornate di sole all'anno con temperature di 24,5° d'estate e 9,4° d'inverno.
+
+Strutture ricettive che spaziano dagli alberghi di ogni categoria, ai rifugi alpini, alle innumerevoli case per ferie possono soddisfare ogni tipo di soggiorno sia nella stagione estiva che invernale. Tutto l'anno è possibile praticare attività sportive, effettuare escursioni nell'immediato entroterra come nei paesini collinari e montani o nell'Antro del Corchia, visitare città d'arte famose come Lucca, Pisa, Firenze comodamente raggiungibili con i mezzi pubblici oppure rilassarsi passeggiando sui viali lungomare dove i negozi ospitano le firme più prestigiose della moda italiana. Lungo tutto l'arco dell'anno in Versilia si susseguono manifestazioni culturali, ricreative e sportive di livello internazionale.
+</value>
+          <summary></summary>
+          <format type="NULL"></format>
+          <safe_value>La Versilia si estende tra le Alpi Apuane ed il mare, tra il lago di Massaciuccoli e la foce del Cinquale con oltre 20 km. di spiaggia finissima. Ne fanno parte i Comuni di Camaiore, Forte dei Marmi, Massarosa, Pietrasanta, Seravezza, Stazzema e Viareggio. Il clima è temperato, grazie anche al baluardo costituito dal gruppo delle Apuane: in media 270 giornate di sole all&amp;#039;anno con temperature di 24,5° d&amp;#039;estate e 9,4° d&amp;#039;inverno.
+
+Strutture ricettive che spaziano dagli alberghi di ogni categoria, ai rifugi alpini, alle innumerevoli case per ferie possono soddisfare ogni tipo di soggiorno sia nella stagione estiva che invernale. Tutto l&amp;#039;anno è possibile praticare attività sportive, effettuare escursioni nell&amp;#039;immediato entroterra come nei paesini collinari e montani o nell&amp;#039;Antro del Corchia, visitare città d&amp;#039;arte famose come Lucca, Pisa, Firenze comodamente raggiungibili con i mezzi pubblici oppure rilassarsi passeggiando sui viali lungomare dove i negozi ospitano le firme più prestigiose della moda italiana. Lungo tutto l&amp;#039;arco dell&amp;#039;anno in Versilia si susseguono manifestazioni culturali, ricreative e sportive di livello internazionale.
+</safe_value>
+          <safe_summary></safe_summary>
+        </n0>
+      </en>
+    </body>
+    <field_image>
+      <en _numeric_keys="1">
+        <n0>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>600</width>
+          <height>368</height>
+          <uid>10</uid>
+          <filename>versilia.jpg</filename>
+          <uri>public://versilia.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>67464</filesize>
+          <status>1</status>
+          <timestamp>1330942967</timestamp>
+          <uuid>cee3fe78-583a-db14-0171-1a8ec453eba3</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/versilia.jpg</node_export_file_path>
+        </n0>
+      </en>
+    </field_image>
+    <field_geofield>
+      <en _numeric_keys="1">
+        <n0>
+          <wkt>LINESTRING (10.111541747645 43.999729973715, 10.149993896081 44.019484031746, 10.202178954672 44.017508922008, 10.24337768514 43.994790431213, 10.262603759358 43.97008655087, 10.274963378498 43.94339481418, 10.287322997638 43.904818916696, 10.295562743732 43.869188194079, 10.276336669514 43.852355166527, 10.24337768514 43.852355166527, 10.224151610922 43.894923631658, 10.177459716393 43.945372391032, 10.136260985926 43.98293385155, 10.111541747645 44.001705675581, 10.111541747645 44.000717832872, 10.11291503866 44.001705675581)</wkt>
+          <geo_type>linestring</geo_type>
+          <lat>43.9359</lat>
+          <lon>10.2036</lon>
+          <left>10.1115</left>
+          <top>44.0195</top>
+          <right>10.2956</right>
+          <bottom>43.8524</bottom>
+          <srid type="NULL"></srid>
+          <accuracy type="NULL"></accuracy>
+          <source type="NULL"></source>
+        </n0>
+      </en>
+    </field_geofield>
+    <field_location _numeric_keys="1"></field_location>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>301</nid>
+        </n0>
+        <n1>
+          <nid>308</nid>
+        </n1>
+        <n2>
+          <nid>307</nid>
+        </n2>
+      </en>
+    </field_ref_porto>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1330077389</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>134</vid>
+    <uid>10</uid>
+    <title>Litorale delle Apuane</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>0</promote>
+    <sticky>0</sticky>
+    <vuuid>a16256fc-a9e6-bdb4-f577-4cd2ff7ae1aa</vuuid>
+    <ds_switch></ds_switch>
+    <nid>123</nid>
+    <type>scheda_territorio</type>
+    <language>it</language>
+    <created>1330077432</created>
+    <changed>1337775579</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>e52d2bd8-5e82-4d14-297d-9f4a8e91f80a</uuid>
+    <revision_timestamp>1337775579</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <body>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Una terra che riunisce nel suo territorio molteplici aspetti: montagne che tentano di tuffarsi nel mare, mare che con le sue onde cerca di lambire le Apuane, montagne che mostrano il loro cuore bianco di marmo, colline colorate di un verde irreale, borghi antichi che sono al confine tra passato e presente, castelli che resistono impavidi allo scorrere degli anni, pievi antiche testimoni di storie tra leggenda e realtà. Divisa idealmente tra costa e Lunigiana, si offre ad un turismo non solo stagionale: l’estate domina il mare su tutte le altre attrattive, ma nelle altre stagioni per chi ama la natura sono un’attrattiva irresistibile frutta e funghi di ogni genere, passeggiate su antichi sentieri e grotte suggestive.
+
+Chi preferisce invece la storia e l’arte può scegliere tra molti musei, castelli di diverse epoche, pievi e borghi medievali. Un’attrattiva a sé sono invece le cave di marmo, uniche nel suo genere, ferite della montagna che portano alla luce un tesoro inestimabile. Le strutture ricettive sono localizzate su tutto il territorio e sono di vario genere, per soddisfare ogni tipo di esigenza, le manifestazioni che spaziano in ambiti diversi sono numerose, per rendere piacevole il soggiorno di tutti.
+</value>
+          <summary></summary>
+          <format type="NULL"></format>
+          <safe_value>Una terra che riunisce nel suo territorio molteplici aspetti: montagne che tentano di tuffarsi nel mare, mare che con le sue onde cerca di lambire le Apuane, montagne che mostrano il loro cuore bianco di marmo, colline colorate di un verde irreale, borghi antichi che sono al confine tra passato e presente, castelli che resistono impavidi allo scorrere degli anni, pievi antiche testimoni di storie tra leggenda e realtà. Divisa idealmente tra costa e Lunigiana, si offre ad un turismo non solo stagionale: l’estate domina il mare su tutte le altre attrattive, ma nelle altre stagioni per chi ama la natura sono un’attrattiva irresistibile frutta e funghi di ogni genere, passeggiate su antichi sentieri e grotte suggestive.
+
+Chi preferisce invece la storia e l’arte può scegliere tra molti musei, castelli di diverse epoche, pievi e borghi medievali. Un’attrattiva a sé sono invece le cave di marmo, uniche nel suo genere, ferite della montagna che portano alla luce un tesoro inestimabile. Le strutture ricettive sono localizzate su tutto il territorio e sono di vario genere, per soddisfare ogni tipo di esigenza, le manifestazioni che spaziano in ambiti diversi sono numerose, per rendere piacevole il soggiorno di tutti.
+</safe_value>
+          <safe_summary></safe_summary>
+        </n0>
+      </en>
+    </body>
+    <field_image>
+      <en _numeric_keys="1">
+        <n0>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>490</width>
+          <height>327</height>
+          <uid>10</uid>
+          <filename>alpi-apuane_1.png</filename>
+          <uri>public://alpi-apuane_1.png</uri>
+          <filemime>image/png</filemime>
+          <filesize>334058</filesize>
+          <status>1</status>
+          <timestamp>1330942430</timestamp>
+          <uuid>b3807abb-9d90-e034-711f-445815af8cb9</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/alpi-apuane_1.png</node_export_file_path>
+        </n0>
+      </en>
+    </field_image>
+    <field_geofield>
+      <en _numeric_keys="1">
+        <n0>
+          <wkt>LINESTRING (10.109481811099 44.002199590771, 10.150680541566 44.030839635949, 10.158920287659 44.041699482737, 10.117034911684 44.054531281135, 10.072402953678 44.062426390755, 10.044937133367 44.067853667949, 10.020217895086 44.079200003269, 9.996871947822 44.093009997017, 9.9742126460648 44.103365376502, 9.9515533443075 44.118648574443, 9.9288940425511 44.102379228021, 9.9213409419653 44.083146044757, 9.9295806880582 44.06094613789, 9.9652862544638 44.037750677821, 9.976272582588 44.03676343547, 9.9941253657908 44.051076839643, 10.019531249578 44.045648024475, 10.040130614812 44.035776176671, 10.108795165591 44.002693501846)</wkt>
+          <geo_type>linestring</geo_type>
+          <lat>44.0604</lat>
+          <lon>10.0401</lon>
+          <left>9.92134</left>
+          <top>44.1186</top>
+          <right>10.1589</right>
+          <bottom>44.0022</bottom>
+          <srid type="NULL"></srid>
+          <accuracy type="NULL"></accuracy>
+          <source type="NULL"></source>
+        </n0>
+      </en>
+    </field_geofield>
+    <field_location _numeric_keys="1"></field_location>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>305</nid>
+        </n0>
+        <n1>
+          <nid>306</nid>
+        </n1>
+      </en>
+    </field_ref_porto>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1330077432</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>143</vid>
+    <uid>10</uid>
+    <title>L'Amiata</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>0</promote>
+    <sticky>0</sticky>
+    <vuuid>95f73aed-7c19-30b4-45e2-7771c3a69291</vuuid>
+    <ds_switch></ds_switch>
+    <nid>132</nid>
+    <type>scheda_territorio</type>
+    <language>it</language>
+    <created>1330338593</created>
+    <changed>1330943587</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>de7ad0fa-ec91-e8c4-618a-d67c42883cd0</uuid>
+    <revision_timestamp>1330943587</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <body>
+      <en _numeric_keys="1">
+        <n0>
+          <value>L’Amiata, antichissimo vulcano spento, affascina con i suoi panorami mozzafiato e per i suoi segreti millenari.
+
+
+Una terra, l’Amiata, dove ogni momento storico ha lasciato le sue impronte: palafitte, graffiti, aree preistoriche, tracce di ville romane, luoghi di maghi e paladini (la grotta di Mago Merlino), rocche, torri e castelli medievali (la Rocca di Montelaterone, il Castello Aldobrandesco di Arcidosso, il Castello di Potentino a Seggiano, la Rocca Silvana, il Castello della Triana), palazzi nobili e rigorosi del Rinascimento (Palazzo Nerucci a Castel del Piano e Palazzo Sforza Cesarini di Santa Fiora, Villa Sforzesca a Castell’Azzara) e poi piazze e slarghi sette-ottocenteschi, infine, la modernizzazione del Novecento accompagnata dal controcanto della cultura mineraria.
+E poi dappertutto pievi romaniche e chiese rinascimentali, conventi, opere d’arte, tracce visibili di antichi itinerari di prestigio; sono i segni ancora integri di millenari pellegrinaggi che conducevano a Roma attraverso la Via Francigena.
+Molto spesso accanto alle pievi e ai conventi (o ai loro ruderi), zampillano ancora fonti e sorgenti, che attestano una religiosità vera e propria per l’acqua, che sgorga a dissetare Amiata, Maremma e Senese, e per questa ricchezza di tutti si sono inventate tradizioni e cerimoniali, si sono tramandate leggende e favole. E con il culto dell’acqua quello del fuoco, forza pagana che brucia il male e che evoca antiche magie e riti iniziatici.
+Una religiosità forte per tutto ciò che vi è di naturale, parte di un misticismo carico di emozione che da sempre ha riguardato quest’angolo di Toscana, dal “cuore antico”. 
+
+</value>
+          <summary></summary>
+          <format type="NULL"></format>
+          <safe_value>L’Amiata, antichissimo vulcano spento, affascina con i suoi panorami mozzafiato e per i suoi segreti millenari.
+
+
+Una terra, l’Amiata, dove ogni momento storico ha lasciato le sue impronte: palafitte, graffiti, aree preistoriche, tracce di ville romane, luoghi di maghi e paladini (la grotta di Mago Merlino), rocche, torri e castelli medievali (la Rocca di Montelaterone, il Castello Aldobrandesco di Arcidosso, il Castello di Potentino a Seggiano, la Rocca Silvana, il Castello della Triana), palazzi nobili e rigorosi del Rinascimento (Palazzo Nerucci a Castel del Piano e Palazzo Sforza Cesarini di Santa Fiora, Villa Sforzesca a Castell’Azzara) e poi piazze e slarghi sette-ottocenteschi, infine, la modernizzazione del Novecento accompagnata dal controcanto della cultura mineraria.
+E poi dappertutto pievi romaniche e chiese rinascimentali, conventi, opere d’arte, tracce visibili di antichi itinerari di prestigio; sono i segni ancora integri di millenari pellegrinaggi che conducevano a Roma attraverso la Via Francigena.
+Molto spesso accanto alle pievi e ai conventi (o ai loro ruderi), zampillano ancora fonti e sorgenti, che attestano una religiosità vera e propria per l’acqua, che sgorga a dissetare Amiata, Maremma e Senese, e per questa ricchezza di tutti si sono inventate tradizioni e cerimoniali, si sono tramandate leggende e favole. E con il culto dell’acqua quello del fuoco, forza pagana che brucia il male e che evoca antiche magie e riti iniziatici.
+Una religiosità forte per tutto ciò che vi è di naturale, parte di un misticismo carico di emozione che da sempre ha riguardato quest’angolo di Toscana, dal “cuore antico”. 
+
+</safe_value>
+          <safe_summary></safe_summary>
+        </n0>
+      </en>
+    </body>
+    <field_image>
+      <en _numeric_keys="1">
+        <n0>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>520</width>
+          <height>717</height>
+          <uid>10</uid>
+          <filename>amiata.jpg</filename>
+          <uri>public://amiata_0.jpg</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>331707</filesize>
+          <status>1</status>
+          <timestamp>1330943587</timestamp>
+          <uuid>02b451a8-5ec3-15a4-1d5f-c40a90274734</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/amiata_0.jpg</node_export_file_path>
+        </n0>
+      </en>
+    </field_image>
+    <field_geofield>
+      <en _numeric_keys="1">
+        <n0>
+          <wkt>LINESTRING (11.530151366675 42.867409221496, 11.523628234351 42.893321828925, 11.559677123509 42.920480641551, 11.622848510226 42.922994741151, 11.667823790986 42.918972132547, 11.690826415497 42.889800366023, 11.709022521453 42.84324786693, 11.660614013154 42.827386840737, 11.616325377902 42.8258760545, 11.549377440893 42.829652950861, 11.529808043921 42.867660852524)</wkt>
+          <geo_type>linestring</geo_type>
+          <lat>42.8744</lat>
+          <lon>11.6163</lon>
+          <left>11.5236</left>
+          <top>42.923</top>
+          <right>11.709</right>
+          <bottom>42.8259</bottom>
+          <srid type="NULL"></srid>
+          <accuracy type="NULL"></accuracy>
+          <source type="NULL"></source>
+        </n0>
+      </en>
+    </field_geofield>
+    <field_location _numeric_keys="1"></field_location>
+    <field_ref_porto _numeric_keys="1"></field_ref_porto>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1330338593</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>188</vid>
+    <uid>10</uid>
+    <title>Isola d'Elba</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>0</promote>
+    <sticky>0</sticky>
+    <vuuid>c66988a8-e050-2a34-cdf5-5dd35462187f</vuuid>
+    <ds_switch></ds_switch>
+    <nid>177</nid>
+    <type>scheda_territorio</type>
+    <language>it</language>
+    <created>1332252533</created>
+    <changed>1332252649</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>158bbd58-56df-a4e4-e150-73c44f37bd46</uuid>
+    <revision_timestamp>1332252649</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <body>
+      <en _numeric_keys="1">
+        <n0>
+          <value>L'Elba è ricca dei ricordi del suo passato e la storia può raccontare di abitanti preistorici, di miniere di ferro, di Etruschi e Romani, di incursioni piratesche, di sanguinose battaglie per dominare su questo piccolo ma importante territorio.
+E' difficile trovare un altro fazzoletto di terra in mezzo al mare che possa raccontare una storia altrettanto ricca e travagliata.
+Le prime notizie su quest’isola ci giungono dall’epoca remota in cui storia e leggende erano indissolubilmente intrecciate.
+Dalle vicende un po’ più vicine a noi possiamo constatare che il destino dell’Elba è sempre stato determinato da due fattori: la sua posizione strategica e la ricchezza di minerali del sottosuolo. Per queste caratteristiche fu spesso terra di conquista per le varie potenze che si affacciarono sul Mediterraneo.
+Per gli Etruschi costituì un’inesauribile fonte di ricchezza ed il ferro elbano contribuì al prosperare della loro civiltà. I Romani apprezzarono l’Elba per il suo ferro, ma anche per i fanghi curativi: abbiamo ritrovato i resti di due ricche ville patrizie ed una delle due si trova proprio nei pressi del bacino termale.
+Il Medioevo vide la dominazione pisana, di cui restano alcune importanti e suggestive costruzioni a difesa del territorio, che dimostrano quanto il possesso dell’isola fosse importante.
+Ecco poi la Signoria degli Appiani e la grande cura di Cosimo de’ Medici il quale, sui resti della romana Fabricia, edificò la sua “Cosmopoli” (oggi Portoferraio), cingendola di mura possenti che salvarono gli abitanti dalle incursioni piratesche.
+Gli Spagnoli si insediarono a Porto Azzurro ed anch’essi posero mano alla difesa del loro territorio con una costruzione imponente: il forte di S. Giacomo che ancor oggi, divenuto casa penale, domina il ridente paese.
+L’Elba interessò anche gli Inglesi, i Tedeschi ed i Francesi, che si sfidarono con la diplomazia e con le armi per impadronirsene.
+Giungendo ad epoche più vicine a noi, il periodo storico che rese quest’isola famosa, proiettandola sul palcoscenico mondiale, fu il breve esilio di Napoleone, che vi rimase 10 mesi prima dell’avventura dei 100 giorni.
+Il Bonaparte lasciò un’impronta significativa in questo suo minuscolo regno (ricordiamo infatti che egli fu sovrano dell’Elba e non semplice prigioniero come a Sant’Elena).
+L’Elba è ricca dei ricordi del suo passato: reperti archeologici, architettura militare, le residenze napoleoniche e poi, nel mare lungo le coste, tanti ritrovamenti di navi che trasportavano il vino dell’Elba nei più importanti centri del Mediterraneo. Offre quindi interessanti soggetti di studio a storici ed archeologi, ma anche a tutti coloro che amano curiosare fra le testimonianze del passato.
+
+
+Contatti
+UFFICIO TURISTICO ARCIPELAGO - PROVINCIA DI LIVORNO
+Viale Elba, 4 - 57037 – Portoferraio – (LI)
+Tel. 0039 0565 914671
+Informazioni turistiche: info@isoleditoscana.it
+http://www.aptelba.it/APTView/index.jsp
+
+fonte: &quot;Archivio Ufficio Turistico Arcipelago Toscano&quot;
+</value>
+          <summary></summary>
+          <format type="NULL"></format>
+          <safe_value>L&amp;#039;Elba è ricca dei ricordi del suo passato e la storia può raccontare di abitanti preistorici, di miniere di ferro, di Etruschi e Romani, di incursioni piratesche, di sanguinose battaglie per dominare su questo piccolo ma importante territorio.
+E&amp;#039; difficile trovare un altro fazzoletto di terra in mezzo al mare che possa raccontare una storia altrettanto ricca e travagliata.
+Le prime notizie su quest’isola ci giungono dall’epoca remota in cui storia e leggende erano indissolubilmente intrecciate.
+Dalle vicende un po’ più vicine a noi possiamo constatare che il destino dell’Elba è sempre stato determinato da due fattori: la sua posizione strategica e la ricchezza di minerali del sottosuolo. Per queste caratteristiche fu spesso terra di conquista per le varie potenze che si affacciarono sul Mediterraneo.
+Per gli Etruschi costituì un’inesauribile fonte di ricchezza ed il ferro elbano contribuì al prosperare della loro civiltà. I Romani apprezzarono l’Elba per il suo ferro, ma anche per i fanghi curativi: abbiamo ritrovato i resti di due ricche ville patrizie ed una delle due si trova proprio nei pressi del bacino termale.
+Il Medioevo vide la dominazione pisana, di cui restano alcune importanti e suggestive costruzioni a difesa del territorio, che dimostrano quanto il possesso dell’isola fosse importante.
+Ecco poi la Signoria degli Appiani e la grande cura di Cosimo de’ Medici il quale, sui resti della romana Fabricia, edificò la sua “Cosmopoli” (oggi Portoferraio), cingendola di mura possenti che salvarono gli abitanti dalle incursioni piratesche.
+Gli Spagnoli si insediarono a Porto Azzurro ed anch’essi posero mano alla difesa del loro territorio con una costruzione imponente: il forte di S. Giacomo che ancor oggi, divenuto casa penale, domina il ridente paese.
+L’Elba interessò anche gli Inglesi, i Tedeschi ed i Francesi, che si sfidarono con la diplomazia e con le armi per impadronirsene.
+Giungendo ad epoche più vicine a noi, il periodo storico che rese quest’isola famosa, proiettandola sul palcoscenico mondiale, fu il breve esilio di Napoleone, che vi rimase 10 mesi prima dell’avventura dei 100 giorni.
+Il Bonaparte lasciò un’impronta significativa in questo suo minuscolo regno (ricordiamo infatti che egli fu sovrano dell’Elba e non semplice prigioniero come a Sant’Elena).
+L’Elba è ricca dei ricordi del suo passato: reperti archeologici, architettura militare, le residenze napoleoniche e poi, nel mare lungo le coste, tanti ritrovamenti di navi che trasportavano il vino dell’Elba nei più importanti centri del Mediterraneo. Offre quindi interessanti soggetti di studio a storici ed archeologi, ma anche a tutti coloro che amano curiosare fra le testimonianze del passato.
+
+
+Contatti
+UFFICIO TURISTICO ARCIPELAGO - PROVINCIA DI LIVORNO
+Viale Elba, 4 - 57037 – Portoferraio – (LI)
+Tel. 0039 0565 914671
+Informazioni turistiche: info@isoleditoscana.it
+http://www.aptelba.it/APTView/index.jsp
+
+fonte: &amp;quot;Archivio Ufficio Turistico Arcipelago Toscano&amp;quot;
+</safe_value>
+          <safe_summary></safe_summary>
+        </n0>
+      </en>
+    </body>
+    <field_image>
+      <en _numeric_keys="1">
+        <n0>
+          <fid type="NULL"></fid>
+          <alt></alt>
+          <title></title>
+          <width>725</width>
+          <height>515</height>
+          <uid>10</uid>
+          <filename>Immagine.JPG</filename>
+          <uri>public://Immagine.JPG</uri>
+          <filemime>image/jpeg</filemime>
+          <filesize>67079</filesize>
+          <status>1</status>
+          <timestamp>1332252533</timestamp>
+          <uuid>f97c973d-0216-da74-7923-9e0bc74bf691</uuid>
+          <rdf_mapping _numeric_keys="1"></rdf_mapping>
+          <node_export_file_path>http://tpe-geo.local.dev/export/images/Immagine.JPG</node_export_file_path>
+        </n0>
+      </en>
+    </field_image>
+    <field_geofield _numeric_keys="1"></field_geofield>
+    <field_location _numeric_keys="1"></field_location>
+    <field_ref_porto _numeric_keys="1"></field_ref_porto>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1332252533</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+</node_export>

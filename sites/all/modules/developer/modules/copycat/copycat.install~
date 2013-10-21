@@ -1,0 +1,88 @@
+<?php
+
+function tpe_services_schema() {
+  $schema['tpe_services_list'] = array(
+      'description' => 'The table keeping track of imported nodes',
+      'fields' => array(
+          'id' => array(
+              'description' => 'The primary identifier of an imported node.',
+              'type' => 'serial',
+              'unsigned' => TRUE,
+              'not null' => TRUE),
+          'nid' => array(
+              'description' => 'The nid of the node in the source server.',
+              'type' => 'int',
+              'unsigned' => TRUE,
+              'not null' => TRUE),
+          'server_id' => array(
+              'description' => 'Id of the of the source server.',
+              'type' => 'int',
+              'unsigned' => TRUE,
+              'not null' => TRUE,
+              'default' => 0),
+          'server_name' => array(
+              'description' => 'Importer name of the source server.',
+              'type' => 'varchar',
+              'length' => 255,
+              'not null' => TRUE,
+              'default' => '',),
+          'original_nid' => array(
+              'description' => 'The nid of the node in the source server.',
+              'type' => 'int',
+              'unsigned' => TRUE,
+              'not null' => TRUE),
+          'original_vid' => array(
+              'description' => 'The vid of the node in the source server.',
+              'type' => 'int',
+              'unsigned' => TRUE,
+              'not null' => TRUE,
+              'default' => 0),
+          'uuid' => array(
+              'description' => 'The uuid of the node server.',
+              'type' => 'char',
+              'length' => 36,
+              'not null' => TRUE,
+              'default' => ''),
+          'created' => array(
+              'description' => 'The Unix timestamp when the node was created.',
+              'type' => 'int',
+              'not null' => TRUE,
+              'default' => 0),
+          'changed' => array(
+              'description' => 'The Unix timestamp when the node was most recently saved.',
+              'type' => 'int',
+              'not null' => TRUE,
+              'default' => 0),
+      ),
+      'indexes' => array(
+          'node_changed' => array('changed'),
+          'node_created' => array('created'),
+      ),
+      'unique keys' => array(
+          'uuid' => array('uuid')
+      ),
+      'primary key' => array('id'),
+  );
+
+  return $schema;
+}
+
+function tpe_services_install() {
+  drupal_install_schema('tpe_services_list');
+  drupal_set_message('Tpe services installed.');
+}
+
+function tpe_services_uninstall() {
+  $rs = db_query("select name from {variable} where name like 'tpe_services_%%'");
+  foreach ($rs as $o) {
+    variable_del($o->name);
+  }
+
+  drupal_uninstall_schema('tpe_services_list');
+
+  //db_query('DROP TABLE {tpe_services_list}');
+
+  drupal_set_message('Tpe services uninstalled.');
+}
+
+?>

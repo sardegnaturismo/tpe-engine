@@ -1,0 +1,5 @@
+name = Localize it!
+description = Geolocalizza basandosi sui dati disponibili i campi di tipo geografico
+dependencies[] = geophp
+core = 7.x
+version = 7.x-0.2

@@ -1,0 +1,199 @@
+<?php
+
+/**
+ * @file
+ * Main Drupal module file for the GeoServer UI module
+ *
+ * @ingroup geoserver
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function geoserver_ui_menu() {
+  $items = array();
+
+  $items['admin/geoserver'] = array(
+    'title' => 'GeoServer',
+    'description' => 'GeoServer administration.',
+    'page callback' => 'geoserver_ui_admin',
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.admin.inc',
+  );
+
+  // Core geoserver settings pages.
+  $items['admin/structure/geoserver'] = array(
+    'title' => 'GeoServer',
+    'description' => 'Manage a GeoServer instance.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('geoserver_ui_admin_settings_form'),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+  $items['admin/structure/geoserver/settings'] = array(
+    'title' => 'Settings',
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+    'weight' => -20,
+  );
+
+  // Layers.
+  $items['admin/structure/geoserver/layers'] = array(
+    'title' => 'Layers',
+    'page callback' => 'geoserver_ui_layers_list',
+    'page arguments' => array(3),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.layers.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => -10,
+  );
+  $items['admin/structure/geoserver/layers/list'] = array(
+    'title' => 'List',
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+    'weight' => -20,
+  );
+  // Layer type drilldown.
+  $items['admin/structure/geoserver/layers/add'] = array(
+    'title' => 'Add',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('geoserver_ui_layer_types'),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.layers.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => -10,
+  );
+  // Actual add-layer form.
+  $items['admin/structure/geoserver/layers/add/%geoserver_layer_type'] = array(
+    'title' => 'Add',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('geoserver_ui_layers_form', 5),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.layers.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => -15,
+  );
+  // Edit-layer form.
+  $items['admin/structure/geoserver/layers/%geoserver_layer/edit'] = array(
+    'title' => 'Edit layer',
+    'description' => 'Edit geoserver layer.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('geoserver_ui_layers_form', 4),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.layers.inc',
+    'type' => MENU_LOCAL_TASK,
+    'tab_parent' => 'admin/structure/geoserver/layers',
+  );
+  $items['admin/structure/geoserver/layers/%geoserver_layer/update'] = array(
+    'title' => 'Update layer',
+    'description' => 'Update GeoServer layer.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('geoserver_ui_layers_update', 4),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.layers.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+  $items['admin/structure/geoserver/layers/%geoserver_layer/create'] = array(
+    'title' => 'Create layer',
+    'description' => 'Create GeoServer layer.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('geoserver_ui_layers_create', 4),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.layers.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+  $items['admin/structure/geoserver/layers/%geoserver_layer/delete'] = array(
+    'title' => 'Delete layer',
+    'description' => 'Delete GeoServer layer.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('geoserver_ui_layers_delete', 4),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.layers.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+  // Layer-type-wide settings form.
+  $items['admin/structure/geoserver/layers/settings'] = array(
+    'title' => 'Settings',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('geoserver_ui_layers_settings'),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.layers.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => -10,
+  );
+
+  // Styles.
+  $items['admin/structure/geoserver/styles'] = array(
+    'title' => 'Styles',
+    'page callback' => 'geoserver_ui_styles_list',
+    'page arguments' => array(3),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.styles.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => -10,
+  );
+  $items['admin/structure/geoserver/styles/list'] = array(
+    'title' => 'List',
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+    'weight' => -20,
+  );
+  $items['admin/structure/geoserver/styles/add'] = array(
+    'title' => 'Add',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('geoserver_ui_styles_form', 5),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.styles.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => -10,
+  );
+  $items['admin/structure/geoserver/styles/%geoserver_style/edit'] = array(
+    'title' => 'Edit style',
+    'description' => 'Edit geoserver style.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('geoserver_ui_styles_form', 4),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.styles.inc',
+    'type' => MENU_LOCAL_TASK,
+    'tab_parent' => 'admin/structure/geoserver/styles',
+  );
+  $items['admin/structure/geoserver/styles/%geoserver_style/update'] = array(
+    'title' => 'Update style',
+    'description' => 'Update GeoServer style.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('geoserver_ui_styles_update', 4),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.styles.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+  $items['admin/structure/geoserver/styles/%geoserver_style/create'] = array(
+    'title' => 'Create style',
+    'description' => 'Create GeoServer style.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('geoserver_ui_styles_create', 4),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.styles.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+  $items['admin/structure/geoserver/styles/%geoserver_style/delete'] = array(
+    'title' => 'Delete style',
+    'description' => 'Delete GeoServer style.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('geoserver_ui_styles_delete', 4),
+    'access arguments' => array('administer geoserver'),
+    'file' => 'geoserver_ui.styles.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_permission().
+ */
+function geoserver_ui_permission() {
+  return array(
+    'administer geoserver' => array(
+      'title' => t('Administer GeoServer'),
+      'description' => t('Configure a GeoServer instance.'),
+    ),
+  );
+}

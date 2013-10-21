@@ -1,0 +1,4429 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<node_export created="Thu, 06 Sep 2012 15:59:24 +0200">
+  <node>
+    <vid>4</vid>
+    <uid>1</uid>
+    <title>Acquatica</title>
+    <log></log>
+    <status>1</status>
+    <comment>2</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>3a1ed24e-cb01-cd54-0156-e3c0adaaeae2</vuuid>
+    <ds_switch></ds_switch>
+    <nid>4</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1309852690</created>
+    <changed>1314869291</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>ae1c4813-c8be-95c4-f1f9-8419141f97d6</uuid>
+    <revision_timestamp>1314869291</revision_timestamp>
+    <revision_uid>1</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Marco Rossi</value>
+          <format type="NULL"></format>
+          <safe_value>Marco Rossi</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>+393333333333</value>
+          <format type="NULL"></format>
+          <safe_value>+393333333333</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax>
+      <en _numeric_keys="1">
+        <n0>
+          <value>+393333333333</value>
+          <format type="NULL"></format>
+          <safe_value>+393333333333</safe_value>
+        </n0>
+      </en>
+    </field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>acquatica.com</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>acquatica@gmail.com</value>
+          <format type="NULL"></format>
+          <safe_value>acquatica@gmail.com</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location _numeric_keys="1"></field_location>
+    <field_canale_radio>
+      <en _numeric_keys="1">
+        <n0>
+          <value>9</value>
+          <format type="NULL"></format>
+          <safe_value>9</safe_value>
+        </n0>
+      </en>
+    </field_canale_radio>
+    <field_prof_min>
+      <en _numeric_keys="1">
+        <n0>
+          <value>5.00</value>
+        </n0>
+      </en>
+    </field_prof_min>
+    <field_prof_max>
+      <en _numeric_keys="1">
+        <n0>
+          <value>23.00</value>
+        </n0>
+      </en>
+    </field_prof_max>
+    <field_pb_trans>
+      <en _numeric_keys="1">
+        <n0>
+          <value>100</value>
+        </n0>
+      </en>
+    </field_pb_trans>
+    <field_pbt>
+      <en _numeric_keys="1">
+        <n0>
+          <value>5000</value>
+        </n0>
+      </en>
+    </field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>20.00</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>3</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi>
+      <en _numeric_keys="1">
+        <n0>
+          <tid>38</tid>
+        </n0>
+        <n1>
+          <tid>39</tid>
+        </n1>
+        <n2>
+          <tid>41</tid>
+        </n2>
+        <n3>
+          <tid>43</tid>
+        </n3>
+        <n4>
+          <tid>35</tid>
+        </n4>
+        <n5>
+          <tid>54</tid>
+        </n5>
+        <n6>
+          <tid>56</tid>
+        </n6>
+        <n7>
+          <tid>64</tid>
+        </n7>
+        <n8>
+          <tid>67</tid>
+        </n8>
+      </en>
+    </field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1309852690</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>1</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>admin</name>
+    <picture>0</picture>
+    <data>a:2:{s:7:&quot;overlay&quot;;i:0;s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>6</vid>
+    <uid>1</uid>
+    <title>GestCA</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>5f7ce9d4-477c-93f4-f15f-66c8e8097145</vuuid>
+    <ds_switch></ds_switch>
+    <nid>6</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1309855214</created>
+    <changed>1309948363</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>3c328407-c804-0164-6538-8a66d5bca3bf</uuid>
+    <revision_timestamp>1309948363</revision_timestamp>
+    <revision_uid>1</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Paolo Bianchi</value>
+          <format type="NULL"></format>
+          <safe_value>Paolo Bianchi</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>+393333333333</value>
+          <format type="NULL"></format>
+          <safe_value>+393333333333</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax _numeric_keys="1"></field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>gestca.com</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>gestca@gmail.com</value>
+          <format type="NULL"></format>
+          <safe_value>gestca@gmail.com</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location _numeric_keys="1"></field_location>
+    <field_canale_radio>
+      <en _numeric_keys="1">
+        <n0>
+          <value>15</value>
+          <format type="NULL"></format>
+          <safe_value>15</safe_value>
+        </n0>
+      </en>
+    </field_canale_radio>
+    <field_prof_min>
+      <en _numeric_keys="1">
+        <n0>
+          <value>5.00</value>
+        </n0>
+      </en>
+    </field_prof_min>
+    <field_prof_max>
+      <en _numeric_keys="1">
+        <n0>
+          <value>23.00</value>
+        </n0>
+      </en>
+    </field_prof_max>
+    <field_pb_trans>
+      <en _numeric_keys="1">
+        <n0>
+          <value>100</value>
+        </n0>
+      </en>
+    </field_pb_trans>
+    <field_pbt>
+      <en _numeric_keys="1">
+        <n0>
+          <value>5000</value>
+        </n0>
+      </en>
+    </field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>20.00</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>2</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1309855214</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>1</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>admin</name>
+    <picture>0</picture>
+    <data>a:2:{s:7:&quot;overlay&quot;;i:0;s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>142</vid>
+    <uid>10</uid>
+    <title>Marina di San Rocco S.p.A.</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>02302323-45a6-eaf4-993c-7e6ec9dd27ae</vuuid>
+    <ds_switch></ds_switch>
+    <nid>131</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1330082588</created>
+    <changed>1330082588</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>01fd7ad4-78fb-3f04-71d6-31feaa7e89c2</uuid>
+    <revision_timestamp>1330082588</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile _numeric_keys="1"></field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0564/330075</value>
+          <format type="NULL"></format>
+          <safe_value>0564/330075</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0564/330903</value>
+          <format type="NULL"></format>
+          <safe_value>0564/330903</safe_value>
+        </n0>
+      </en>
+    </field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>http://www.marinadisanrocco.com/</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>info@marinadisanrocco.it</value>
+          <format type="NULL"></format>
+          <safe_value>info@marinadisanrocco.it</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>33</lid>
+          <name></name>
+          <street>Porto Turistico n.12 </street>
+          <additional></additional>
+          <city>Grosseto</city>
+          <province>GR</province>
+          <postal_code>58100 </postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Grosseto</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio _numeric_keys="1"></field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt _numeric_keys="1"></field_pbt>
+    <field_lunghezza _numeric_keys="1"></field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>101</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1330082588</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>350</vid>
+    <uid>10</uid>
+    <title>PORTO S. STEFANO - PORTO DEL VALLE</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>09255378-eb1d-2534-b940-7ead0267ba9c</vuuid>
+    <ds_switch></ds_switch>
+    <nid>292</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1336119911</created>
+    <changed>1336119911</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>bcac085c-e022-7d14-59a0-60bfdbfecf04</uuid>
+    <revision_timestamp>1336119911</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile _numeric_keys="1"></field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0564-810400</value>
+          <format type="NULL"></format>
+          <safe_value>0564-810400</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax _numeric_keys="1"></field_fax>
+    <field_web _numeric_keys="1"></field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>portosantostefano@guardiacostiera.it</value>
+          <format type="NULL"></format>
+          <safe_value>portosantostefano@guardiacostiera.it</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>132</lid>
+          <name></name>
+          <street>PORTO S. STEFANO - PORTO DEL VALLE</street>
+          <additional></additional>
+          <city>PORTO S. STEFANO</city>
+          <province>GR</province>
+          <postal_code>58019</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Grosseto</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio>
+      <en _numeric_keys="1">
+        <n0>
+          <value>VHF canale 16 – 12 (porto Domiziano) - 14</value>
+          <format type="NULL"></format>
+          <safe_value>VHF canale 16 – 12 (porto Domiziano) - 14</safe_value>
+        </n0>
+      </en>
+    </field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt _numeric_keys="1"></field_pbt>
+    <field_lunghezza _numeric_keys="1"></field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>289</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1336119911</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>351</vid>
+    <uid>10</uid>
+    <title>Marina Cala Galera Circolo Nautico Spa</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>84de156f-ac62-8744-2962-957daee94e53</vuuid>
+    <ds_switch></ds_switch>
+    <nid>293</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1336120232</created>
+    <changed>1336120232</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>8aa10013-e8f6-bc94-f126-1d82083d6954</uuid>
+    <revision_timestamp>1336120232</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Marina Cala Galera Circolo Nautico Spa</value>
+          <format type="NULL"></format>
+          <safe_value>Marina Cala Galera Circolo Nautico Spa</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>+39 (0)564 833010</value>
+          <format type="NULL"></format>
+          <safe_value>+39 (0)564 833010</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax>
+      <en _numeric_keys="1">
+        <n0>
+          <value> +39 (0)564 831172 </value>
+          <format type="NULL"></format>
+          <safe_value> +39 (0)564 831172 </safe_value>
+        </n0>
+      </en>
+    </field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>http://www.marinacalagalera.com/ita/default.aspx</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>info@marinacalagalera.com</value>
+          <format type="NULL"></format>
+          <safe_value>info@marinacalagalera.com</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>133</lid>
+          <name></name>
+          <street>Loc Cala Galera, Porto Ercole</street>
+          <additional></additional>
+          <city>58018</city>
+          <province>GR</province>
+          <postal_code>Porto Ercole</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Grosseto</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio>
+      <en _numeric_keys="1">
+        <n0>
+          <value> VHF canale 09</value>
+          <format type="NULL"></format>
+          <safe_value> VHF canale 09</safe_value>
+        </n0>
+      </en>
+    </field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt _numeric_keys="1"></field_pbt>
+    <field_lunghezza _numeric_keys="1"></field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>99</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1336120232</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>352</vid>
+    <uid>10</uid>
+    <title>Marina di San Rocco S.p.A.</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>f6d14ad5-fd09-c4c4-4d28-6c16b2fb6297</vuuid>
+    <ds_switch></ds_switch>
+    <nid>294</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1336120425</created>
+    <changed>1336120425</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>dde0c8fb-7166-3df4-4de2-7252b7acc6d2</uuid>
+    <revision_timestamp>1336120425</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Marina di San Rocco S.p.A.</value>
+          <format type="NULL"></format>
+          <safe_value>Marina di San Rocco S.p.A.</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value> 0564/330075</value>
+          <format type="NULL"></format>
+          <safe_value> 0564/330075</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0564/330903</value>
+          <format type="NULL"></format>
+          <safe_value>0564/330903</safe_value>
+        </n0>
+      </en>
+    </field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>http://www.marinadisanrocco.com/</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>info@marinadisanrocco.it</value>
+          <format type="NULL"></format>
+          <safe_value>info@marinadisanrocco.it</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>134</lid>
+          <name></name>
+          <street>Marina di grosseto</street>
+          <additional></additional>
+          <city>Marina di Grosseto</city>
+          <province>GR</province>
+          <postal_code>58100</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Grosseto</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio _numeric_keys="1"></field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt _numeric_keys="1"></field_pbt>
+    <field_lunghezza _numeric_keys="1"></field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>101</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1336120425</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>353</vid>
+    <uid>10</uid>
+    <title>Giglio porto, Isola del Giglio</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>81c212e1-1df4-5314-7502-ffbf39c28843</vuuid>
+    <ds_switch></ds_switch>
+    <nid>295</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1336120688</created>
+    <changed>1336120688</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>106de6c4-5275-ff14-a51a-1786143fe920</uuid>
+    <revision_timestamp>1336120688</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value> Ufficio circondariale marittimo</value>
+          <format type="NULL"></format>
+          <safe_value> Ufficio circondariale marittimo</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value> 0564-809480</value>
+          <format type="NULL"></format>
+          <safe_value> 0564-809480</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax _numeric_keys="1"></field_fax>
+    <field_web _numeric_keys="1"></field_web>
+    <field_mail _numeric_keys="1"></field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>135</lid>
+          <name></name>
+          <street>Giglio Porto</street>
+          <additional></additional>
+          <city>Isola del Giglio</city>
+          <province>GR</province>
+          <postal_code>58012</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Grosseto</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio>
+      <en _numeric_keys="1">
+        <n0>
+          <value>VHF canale 16/14</value>
+          <format type="NULL"></format>
+          <safe_value>VHF canale 16/14</safe_value>
+        </n0>
+      </en>
+    </field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt _numeric_keys="1"></field_pbt>
+    <field_lunghezza _numeric_keys="1"></field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>287</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1336120688</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>354</vid>
+    <uid>10</uid>
+    <title>Marina di Punta Ala</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>228ed733-0447-b804-a52b-e9fb31241e8b</vuuid>
+    <ds_switch></ds_switch>
+    <nid>296</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1336120898</created>
+    <changed>1336120898</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>dda39163-2591-e9e4-e9a7-c74b43ed6b2d</uuid>
+    <revision_timestamp>1336120898</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Marina di Punta Ala</value>
+          <format type="NULL"></format>
+          <safe_value>Marina di Punta Ala</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0564/922217</value>
+          <format type="NULL"></format>
+          <safe_value>0564/922217</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0564/921086</value>
+          <format type="NULL"></format>
+          <safe_value>0564/921086</safe_value>
+        </n0>
+      </en>
+    </field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>http://www.marinadipuntala.com/</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>info@marinadipuntaala.com </value>
+          <format type="NULL"></format>
+          <safe_value>info@marinadipuntaala.com </safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>136</lid>
+          <name></name>
+          <street>Punta Ala </street>
+          <additional></additional>
+          <city>Castiglione della Pescaia </city>
+          <province>GR</province>
+          <postal_code>58043</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Grosseto</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio>
+      <en _numeric_keys="1">
+        <n0>
+          <value>VHF canale 09 - 16</value>
+          <format type="NULL"></format>
+          <safe_value>VHF canale 09 - 16</safe_value>
+        </n0>
+      </en>
+    </field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt _numeric_keys="1"></field_pbt>
+    <field_lunghezza _numeric_keys="1"></field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>100</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1336120898</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>355</vid>
+    <uid>10</uid>
+    <title>Porto canale di Castiglione della Pescaia</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>4ee92642-6e6f-deb4-71ee-a3e14a85a9ca</vuuid>
+    <ds_switch></ds_switch>
+    <nid>297</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1336121064</created>
+    <changed>1336121064</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>c16c2b4f-81ae-3c64-e125-03ab453a8085</uuid>
+    <revision_timestamp>1336121064</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Porto canale di Castiglione della Pescaia</value>
+          <format type="NULL"></format>
+          <safe_value>Porto canale di Castiglione della Pescaia</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0564-933489</value>
+          <format type="NULL"></format>
+          <safe_value>0564-933489</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax _numeric_keys="1"></field_fax>
+    <field_web _numeric_keys="1"></field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>castiglionedellapescaia@guardiacostiera.it</value>
+          <format type="NULL"></format>
+          <safe_value>castiglionedellapescaia@guardiacostiera.it</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>137</lid>
+          <name></name>
+          <street>Castiglione della pescaia</street>
+          <additional></additional>
+          <city>Castiglione della pescaia</city>
+          <province>GR</province>
+          <postal_code>58043</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Grosseto</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio>
+      <en _numeric_keys="1">
+        <n0>
+          <value>VHF canale 16 (dalle 08 alle 20)</value>
+          <format type="NULL"></format>
+          <safe_value>VHF canale 16 (dalle 08 alle 20)</safe_value>
+        </n0>
+      </en>
+    </field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt _numeric_keys="1"></field_pbt>
+    <field_lunghezza _numeric_keys="1"></field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>193</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1336121064</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>356</vid>
+    <uid>10</uid>
+    <title>Marina di Scarlino</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>40c81757-d4b9-b0f4-5d22-223b05aecd77</vuuid>
+    <ds_switch></ds_switch>
+    <nid>298</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1336121313</created>
+    <changed>1336121313</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>64318b78-94db-4c04-8d80-94141dfe4df0</uuid>
+    <revision_timestamp>1336121313</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Marina di Scarlino</value>
+          <format type="NULL"></format>
+          <safe_value>Marina di Scarlino</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0566.866302</value>
+          <format type="NULL"></format>
+          <safe_value>0566.866302</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax>
+      <en _numeric_keys="1">
+        <n0>
+          <value> 0566.866252</value>
+          <format type="NULL"></format>
+          <safe_value> 0566.866252</safe_value>
+        </n0>
+      </en>
+    </field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>http://www.marinadiscarlino.com/it/</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>info@marinadiscarlino.com</value>
+          <format type="NULL"></format>
+          <safe_value>info@marinadiscarlino.com</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>138</lid>
+          <name></name>
+          <street>localita puntone</street>
+          <additional></additional>
+          <city>Scarlino</city>
+          <province>GR</province>
+          <postal_code>58020</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Grosseto</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio>
+      <en _numeric_keys="1">
+        <n0>
+          <value> VHF canale 72</value>
+          <format type="NULL"></format>
+          <safe_value> VHF canale 72</safe_value>
+        </n0>
+      </en>
+    </field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt _numeric_keys="1"></field_pbt>
+    <field_lunghezza _numeric_keys="1"></field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>67</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1336121313</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>357</vid>
+    <uid>10</uid>
+    <title>Approdo di Talamone</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>b596ec34-8261-0614-49f8-66e1cb16fa40</vuuid>
+    <ds_switch></ds_switch>
+    <nid>299</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1336121605</created>
+    <changed>1336121605</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>497a152b-4507-9b74-4154-553a786a8329</uuid>
+    <revision_timestamp>1336121605</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile _numeric_keys="1"></field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0564-887003</value>
+          <format type="NULL"></format>
+          <safe_value>0564-887003</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax _numeric_keys="1"></field_fax>
+    <field_web _numeric_keys="1"></field_web>
+    <field_mail _numeric_keys="1"></field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>139</lid>
+          <name></name>
+          <street>Talamone</street>
+          <additional></additional>
+          <city>Orbetello</city>
+          <province>GR</province>
+          <postal_code>58010</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Grosseto</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio _numeric_keys="1"></field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt _numeric_keys="1"></field_pbt>
+    <field_lunghezza _numeric_keys="1"></field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>102</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1336121605</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>358</vid>
+    <uid>10</uid>
+    <title>I. GIANNUTRI - CALA SPALMATOI</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>d84fec30-6ae6-9c54-65be-ba9954f71fb2</vuuid>
+    <ds_switch></ds_switch>
+    <nid>300</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1336121770</created>
+    <changed>1336121770</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>a03697a9-d7c6-32d4-11ec-ddfa9e25c936</uuid>
+    <revision_timestamp>1336121770</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>CALA SPALMATOI</value>
+          <format type="NULL"></format>
+          <safe_value>CALA SPALMATOI</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0564-898890</value>
+          <format type="NULL"></format>
+          <safe_value>0564-898890</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax _numeric_keys="1"></field_fax>
+    <field_web _numeric_keys="1"></field_web>
+    <field_mail _numeric_keys="1"></field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>140</lid>
+          <name></name>
+          <street>I. GIANNUTRI - CALA SPALMATOI</street>
+          <additional></additional>
+          <city>Orbetello</city>
+          <province>GR</province>
+          <postal_code>58010</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Grosseto</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio>
+      <en _numeric_keys="1">
+        <n0>
+          <value>VHF canale 16 (Delemare)</value>
+          <format type="NULL"></format>
+          <safe_value>VHF canale 16 (Delemare)</safe_value>
+        </n0>
+      </en>
+    </field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt _numeric_keys="1"></field_pbt>
+    <field_lunghezza _numeric_keys="1"></field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>288</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1336121770</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>360</vid>
+    <uid>10</uid>
+    <title>VIAREGGIO PORTO SPA</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>98dc1cad-f811-7814-1917-ba490e45708a</vuuid>
+    <ds_switch></ds_switch>
+    <nid>302</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1337611280</created>
+    <changed>1337612923</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>c5b65058-bc1c-e504-9d6d-2d9f0c764ed3</uuid>
+    <revision_timestamp>1337612923</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>VIAREGGIO PORTO SPA</value>
+          <format type="NULL"></format>
+          <safe_value>VIAREGGIO PORTO SPA</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>+39 0584 32033</value>
+          <format type="NULL"></format>
+          <safe_value>+39 0584 32033</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax>
+      <en _numeric_keys="1">
+        <n0>
+          <value>+ 39 0584 361209</value>
+          <format type="NULL"></format>
+          <safe_value>+ 39 0584 361209</safe_value>
+        </n0>
+      </en>
+    </field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>www.viareggio-portospa.com</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>approdo@viareggio-portospa.com</value>
+          <format type="NULL"></format>
+          <safe_value>approdo@viareggio-portospa.com</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>142</lid>
+          <name></name>
+          <street>Piazza Palombari dell’Artiglio</street>
+          <additional></additional>
+          <city>Viareggio</city>
+          <province>LU</province>
+          <postal_code>55049</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Lucca</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio>
+      <en _numeric_keys="1">
+        <n0>
+          <value>(VHF-CHF) 12 VHF</value>
+          <format type="NULL"></format>
+          <safe_value>(VHF-CHF) 12 VHF</safe_value>
+        </n0>
+      </en>
+    </field_canale_radio>
+    <field_prof_min>
+      <en _numeric_keys="1">
+        <n0>
+          <value>3.00</value>
+        </n0>
+      </en>
+    </field_prof_min>
+    <field_prof_max>
+      <en _numeric_keys="1">
+        <n0>
+          <value>4.50</value>
+        </n0>
+      </en>
+    </field_prof_max>
+    <field_pb_trans>
+      <en _numeric_keys="1">
+        <n0>
+          <value>61</value>
+        </n0>
+      </en>
+    </field_pb_trans>
+    <field_pbt>
+      <en _numeric_keys="1">
+        <n0>
+          <value>615</value>
+        </n0>
+      </en>
+    </field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>18.00</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>301</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1337611280</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>361</vid>
+    <uid>10</uid>
+    <title>YACHT BROKER SRL</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>29cf2b37-38d6-af24-c559-d6f05e554671</vuuid>
+    <ds_switch></ds_switch>
+    <nid>303</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1337611480</created>
+    <changed>1337613041</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>10f11926-2b48-8954-c538-3e17045a9408</uuid>
+    <revision_timestamp>1337613041</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>YACHT BROKER SRL</value>
+          <format type="NULL"></format>
+          <safe_value>YACHT BROKER SRL</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>+39 0584 1840404</value>
+          <format type="NULL"></format>
+          <safe_value>+39 0584 1840404</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax>
+      <en _numeric_keys="1">
+        <n0>
+          <value>+39 347 96 82 680</value>
+          <format type="NULL"></format>
+          <safe_value>+39 347 96 82 680</safe_value>
+        </n0>
+      </en>
+    </field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>http://www.yachtbrokersrl.it</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>michelafucile@yachtbrokersrl.it</value>
+          <format type="NULL"></format>
+          <safe_value>michelafucile@yachtbrokersrl.it</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>143</lid>
+          <name></name>
+          <street>Via Michele Coppino – Darsena Europa</street>
+          <additional></additional>
+          <city>Viareggio</city>
+          <province>LU</province>
+          <postal_code>55049</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Lucca</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio _numeric_keys="1"></field_canale_radio>
+    <field_prof_min>
+      <en _numeric_keys="1">
+        <n0>
+          <value>3.00</value>
+        </n0>
+      </en>
+    </field_prof_min>
+    <field_prof_max>
+      <en _numeric_keys="1">
+        <n0>
+          <value>4.50</value>
+        </n0>
+      </en>
+    </field_prof_max>
+    <field_pb_trans>
+      <en _numeric_keys="1">
+        <n0>
+          <value>1</value>
+        </n0>
+      </en>
+    </field_pb_trans>
+    <field_pbt>
+      <en _numeric_keys="1">
+        <n0>
+          <value>15</value>
+        </n0>
+      </en>
+    </field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>80.00</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>301</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1337611480</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>362</vid>
+    <uid>10</uid>
+    <title>CLUB NAUTICO VERSILIA</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>61fe379f-bdc8-7ec4-515a-e0e4c07ad0c4</vuuid>
+    <ds_switch></ds_switch>
+    <nid>304</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1337611614</created>
+    <changed>1337613075</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>e244f0ad-75a3-3314-91ba-f116e0040a23</uuid>
+    <revision_timestamp>1337613075</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>CLUB NAUTICO VERSILIA</value>
+          <format type="NULL"></format>
+          <safe_value>CLUB NAUTICO VERSILIA</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>+39 0584 31444</value>
+          <format type="NULL"></format>
+          <safe_value>+39 0584 31444</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax>
+      <en _numeric_keys="1">
+        <n0>
+          <value>+ 39 0584 31447</value>
+          <format type="NULL"></format>
+          <safe_value>+ 39 0584 31447</safe_value>
+        </n0>
+      </en>
+    </field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>http://www.cnv-viareggio.it</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>clubnauticovg@aruba.it</value>
+          <format type="NULL"></format>
+          <safe_value>clubnauticovg@aruba.it</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>144</lid>
+          <name></name>
+          <street>Piazza Palombari dell’Artiglio</street>
+          <additional></additional>
+          <city>Viareggio</city>
+          <province>LU</province>
+          <postal_code>55049</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Lucca</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio>
+      <en _numeric_keys="1">
+        <n0>
+          <value>(VHF-CHF) 09 VHF</value>
+          <format type="NULL"></format>
+          <safe_value>(VHF-CHF) 09 VHF</safe_value>
+        </n0>
+      </en>
+    </field_canale_radio>
+    <field_prof_min>
+      <en _numeric_keys="1">
+        <n0>
+          <value>2.00</value>
+        </n0>
+      </en>
+    </field_prof_min>
+    <field_prof_max>
+      <en _numeric_keys="1">
+        <n0>
+          <value>2.50</value>
+        </n0>
+      </en>
+    </field_prof_max>
+    <field_pb_trans>
+      <en _numeric_keys="1">
+        <n0>
+          <value>6</value>
+        </n0>
+      </en>
+    </field_pb_trans>
+    <field_pbt>
+      <en _numeric_keys="1">
+        <n0>
+          <value>63</value>
+        </n0>
+      </en>
+    </field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>15.00</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>301</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1337611614</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>597</vid>
+    <uid>10</uid>
+    <title>Viareggio - Na.Vi.Go. s.c.a.r.l. (Perini Navi spa)</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>638e0708-2677-fb94-49ad-8348eb1b7c49</vuuid>
+    <ds_switch></ds_switch>
+    <nid>538</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1343816237</created>
+    <changed>1343816237</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>959b0dd7-7467-bc14-1591-8f5122888f38</uuid>
+    <revision_timestamp>1343816237</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>AR.PE.CA. S.P.A</value>
+          <format type="NULL"></format>
+          <safe_value>AR.PE.CA. S.P.A</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value> 0584 388855</value>
+          <format type="NULL"></format>
+          <safe_value> 0584 388855</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax _numeric_keys="1"></field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>www.arpeca.it</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>nfo@arpeca.it</value>
+          <format type="NULL"></format>
+          <safe_value>nfo@arpeca.it</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>345</lid>
+          <name></name>
+          <street>Via Dei Pescatori, 3</street>
+          <additional></additional>
+          <city>Viareggio</city>
+          <province>LU</province>
+          <postal_code>55049</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Lucca</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio _numeric_keys="1"></field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt>
+      <en _numeric_keys="1">
+        <n0>
+          <value>20</value>
+        </n0>
+      </en>
+    </field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>35.00</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>301</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1343816237</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>598</vid>
+    <uid>10</uid>
+    <title>Cantieri Navali Ugo Code Casa - Codecasa Tre S.P.A</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>93ead31b-1afe-e6f4-4df8-a598dd4fadad</vuuid>
+    <ds_switch></ds_switch>
+    <nid>539</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1343816493</created>
+    <changed>1343816493</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>e549ae8c-a585-1034-49da-9c94db92596b</uuid>
+    <revision_timestamp>1343816493</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Cantieri Navali Ugo Code Casa - Codecasa Tre S.P.A</value>
+          <format type="NULL"></format>
+          <safe_value>Cantieri Navali Ugo Code Casa - Codecasa Tre S.P.A</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0584 383221</value>
+          <format type="NULL"></format>
+          <safe_value>0584 383221</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax _numeric_keys="1"></field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>www.codecasayachts.com</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>info@codecasayachts.com</value>
+          <format type="NULL"></format>
+          <safe_value>info@codecasayachts.com</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>346</lid>
+          <name></name>
+          <street>Piazzale San Benedetto del Tronto, 4</street>
+          <additional></additional>
+          <city>Viareggio</city>
+          <province>LU</province>
+          <postal_code>55049</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Lucca</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio _numeric_keys="1"></field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt>
+      <en _numeric_keys="1">
+        <n0>
+          <value>20</value>
+        </n0>
+      </en>
+    </field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>35.00</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>301</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1343816493</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>599</vid>
+    <uid>10</uid>
+    <title>Viareggio - Na.Vi.Go. s.c.a.r.l. ( Azimut Benetti spa )</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>7ddd6517-2a2d-a5d4-6d14-03be9b7c72b1</vuuid>
+    <ds_switch></ds_switch>
+    <nid>540</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1343816736</created>
+    <changed>1343816736</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>841a8c43-4bb2-89e4-45d1-2628bf561f6c</uuid>
+    <revision_timestamp>1343816736</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Azimut Benetti spa - divisione Lusben</value>
+          <format type="NULL"></format>
+          <safe_value>Azimut Benetti spa - divisione Lusben</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0584 3801409</value>
+          <format type="NULL"></format>
+          <safe_value>0584 3801409</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax _numeric_keys="1"></field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>www.lusben.com</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>service@lusben.com</value>
+          <format type="NULL"></format>
+          <safe_value>service@lusben.com</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>347</lid>
+          <name></name>
+          <street>Via del porto, snc</street>
+          <additional></additional>
+          <city>Viareggio</city>
+          <province>LU</province>
+          <postal_code>55049</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Lucca</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio _numeric_keys="1"></field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans>
+      <en _numeric_keys="1">
+        <n0>
+          <value>45</value>
+        </n0>
+      </en>
+    </field_pb_trans>
+    <field_pbt _numeric_keys="1"></field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>60.00</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>301</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1343816736</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>600</vid>
+    <uid>10</uid>
+    <title>Viareggio - Na.Vi.Go. s.c.a.r.l. (Perini Navi spa)</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>8fbf20fc-76ee-7384-992d-70cb5c57c4f7</vuuid>
+    <ds_switch></ds_switch>
+    <nid>541</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1343817142</created>
+    <changed>1343817142</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>acdb2eb5-35ea-2214-99ee-203097e72a61</uuid>
+    <revision_timestamp>1343817142</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Perini Navi spa</value>
+          <format type="NULL"></format>
+          <safe_value>Perini Navi spa</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0584 4241</value>
+          <format type="NULL"></format>
+          <safe_value>0584 4241</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax _numeric_keys="1"></field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>www.perininavi.it</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>nfo@perininavi.it</value>
+          <format type="NULL"></format>
+          <safe_value>nfo@perininavi.it</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>348</lid>
+          <name></name>
+          <street>Via Coppino, 114</street>
+          <additional></additional>
+          <city>Viareggio</city>
+          <province>LU</province>
+          <postal_code>55049</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Lucca</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio _numeric_keys="1"></field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt>
+      <en _numeric_keys="1">
+        <n0>
+          <value>6</value>
+        </n0>
+      </en>
+    </field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>70.00</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>301</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1343817142</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>601</vid>
+    <uid>10</uid>
+    <title>Viareggio - Na.Vi.Go. s.c.a.r.l. (Yacht Broker srl)</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>ee394aa6-3b4b-3fe4-011c-a042ea0d518a</vuuid>
+    <ds_switch></ds_switch>
+    <nid>542</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1343891483</created>
+    <changed>1343891483</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>91223505-5f88-f644-d92c-1a937f64ae60</uuid>
+    <revision_timestamp>1343891483</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Yacht Broker srl</value>
+          <format type="NULL"></format>
+          <safe_value>Yacht Broker srl</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0584 1840409</value>
+          <format type="NULL"></format>
+          <safe_value>0584 1840409</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0584 1841065</value>
+          <format type="NULL"></format>
+          <safe_value>0584 1841065</safe_value>
+        </n0>
+      </en>
+    </field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>http://www.yachtbrokersrl.it</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>nfo@yachtbrokersrl.it</value>
+          <format type="NULL"></format>
+          <safe_value>nfo@yachtbrokersrl.it</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>349</lid>
+          <name></name>
+          <street>Via lepanto 104,</street>
+          <additional></additional>
+          <city>Viareggio</city>
+          <province>LU</province>
+          <postal_code>55049</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Lucca</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio _numeric_keys="1"></field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt>
+      <en _numeric_keys="1">
+        <n0>
+          <value>15</value>
+        </n0>
+      </en>
+    </field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>80.00</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>301</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1343891483</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>602</vid>
+    <uid>10</uid>
+    <title>Viareggio - Na.Vi.Go. s.c.a.r.l. (UDINA SCRL)</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>8295f4b0-8c82-1e94-f96e-82604ece6476</vuuid>
+    <ds_switch></ds_switch>
+    <nid>543</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1343891697</created>
+    <changed>1343891697</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>25cd3ff5-b671-24f4-7172-cd37adefd9f1</uuid>
+    <revision_timestamp>1343891697</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>UDINA SCRL</value>
+          <format type="NULL"></format>
+          <safe_value>UDINA SCRL</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0584 396166</value>
+          <format type="NULL"></format>
+          <safe_value>0584 396166</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax _numeric_keys="1"></field_fax>
+    <field_web _numeric_keys="1"></field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>info@giancarlofederigi.191.it</value>
+          <format type="NULL"></format>
+          <safe_value>info@giancarlofederigi.191.it</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>350</lid>
+          <name></name>
+          <street>Via dei Pescatori, 3</street>
+          <additional></additional>
+          <city>Viareggio</city>
+          <province>LU</province>
+          <postal_code>55049</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Lucca</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio _numeric_keys="1"></field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt>
+      <en _numeric_keys="1">
+        <n0>
+          <value>70</value>
+        </n0>
+      </en>
+    </field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>45.00</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>301</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1343891697</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>603</vid>
+    <uid>10</uid>
+    <title>CPC Srl</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>66e2445d-7229-5d64-b9de-aff08cecb995</vuuid>
+    <ds_switch></ds_switch>
+    <nid>544</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1343892266</created>
+    <changed>1343892266</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>336eaddf-a5ff-1cf4-79a6-de98359d01b8</uuid>
+    <revision_timestamp>1343892266</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>CPC Srl</value>
+          <format type="NULL"></format>
+          <safe_value>CPC Srl</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0565 276640</value>
+          <format type="NULL"></format>
+          <safe_value>0565 276640</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0565 276219</value>
+          <format type="NULL"></format>
+          <safe_value>0565 276219</safe_value>
+        </n0>
+      </en>
+    </field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>www.ormeggioterrerosse.it</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>info@ormeggioterrerosse.it</value>
+          <format type="NULL"></format>
+          <safe_value>info@ormeggioterrerosse.it</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>351</lid>
+          <name></name>
+          <street>Loc. Colmata, 1B</street>
+          <additional></additional>
+          <city>Piombino</city>
+          <province>LI</province>
+          <postal_code>57025 </postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Livorno</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio _numeric_keys="1"></field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt>
+      <en _numeric_keys="1">
+        <n0>
+          <value>580</value>
+        </n0>
+      </en>
+    </field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>12.00</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>324</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1343892266</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>604</vid>
+    <uid>10</uid>
+    <title>Cooperativa Circolo Nautico PONTEDORO s.c.</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>3fb27194-47d5-8384-bd23-78f2561b3f61</vuuid>
+    <ds_switch></ds_switch>
+    <nid>545</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1343892602</created>
+    <changed>1343892602</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>56d3b1ba-33c6-d814-29bd-060346d340ca</uuid>
+    <revision_timestamp>1343892602</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Cooperativa Circolo Nautico PONTEDORO s.c.</value>
+          <format type="NULL"></format>
+          <safe_value>Cooperativa Circolo Nautico PONTEDORO s.c.</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0565- 276563</value>
+          <format type="NULL"></format>
+          <safe_value>0565- 276563</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0565-277500</value>
+          <format type="NULL"></format>
+          <safe_value>0565-277500</safe_value>
+        </n0>
+      </en>
+    </field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>www.ormeggio-pontedoro.com</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>info@ormeggio-pontedoro.com</value>
+          <format type="NULL"></format>
+          <safe_value>info@ormeggio-pontedoro.com</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>352</lid>
+          <name></name>
+          <street>Via della Sdrisciola, 50</street>
+          <additional></additional>
+          <city>Piombino</city>
+          <province>LI</province>
+          <postal_code>57025 </postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Livorno</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio _numeric_keys="1"></field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt>
+      <en _numeric_keys="1">
+        <n0>
+          <value>659</value>
+        </n0>
+      </en>
+    </field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>8.50</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>324</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1343892602</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+  <node>
+    <vid>605</vid>
+    <uid>10</uid>
+    <title>Approdo Turistico “La Madonnina”</title>
+    <log></log>
+    <status>1</status>
+    <comment>1</comment>
+    <promote>1</promote>
+    <sticky>0</sticky>
+    <vuuid>667fba2e-eed4-3f84-09fb-3ef3465804d5</vuuid>
+    <ds_switch></ds_switch>
+    <nid>546</nid>
+    <type>scheda_gestore</type>
+    <language>it</language>
+    <created>1343893970</created>
+    <changed>1343893970</changed>
+    <tnid>0</tnid>
+    <translate>0</translate>
+    <uuid>b8b92dd2-b5fb-0e34-e1aa-84a128c818c5</uuid>
+    <revision_timestamp>1343893970</revision_timestamp>
+    <revision_uid>108</revision_uid>
+    <field_responsabile>
+      <en _numeric_keys="1">
+        <n0>
+          <value>Viareggio Porto S.p.A.</value>
+          <format type="NULL"></format>
+          <safe_value>Viareggio Porto S.p.A.</safe_value>
+        </n0>
+      </en>
+    </field_responsabile>
+    <field_contatti>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0584 32033</value>
+          <format type="NULL"></format>
+          <safe_value>0584 32033</safe_value>
+        </n0>
+      </en>
+    </field_contatti>
+    <field_fax>
+      <en _numeric_keys="1">
+        <n0>
+          <value>0584 361209</value>
+          <format type="NULL"></format>
+          <safe_value>0584 361209</safe_value>
+        </n0>
+      </en>
+    </field_fax>
+    <field_web>
+      <en _numeric_keys="1">
+        <n0>
+          <url>www.viareggio-portospa.it</url>
+          <title type="NULL"></title>
+          <attributes _numeric_keys="1"></attributes>
+        </n0>
+      </en>
+    </field_web>
+    <field_mail>
+      <en _numeric_keys="1">
+        <n0>
+          <value>approdo@viareggio-portospa.it</value>
+          <format type="NULL"></format>
+          <safe_value>approdo@viareggio-portospa.it</safe_value>
+        </n0>
+      </en>
+    </field_mail>
+    <field_location>
+      <en _numeric_keys="1">
+        <n0>
+          <lid>353</lid>
+          <name></name>
+          <street>Via dei Pescatori, 1</street>
+          <additional></additional>
+          <city>Viareggio</city>
+          <province>LU</province>
+          <postal_code>55049</postal_code>
+          <country>it</country>
+          <latitude>0.000000</latitude>
+          <longitude>0.000000</longitude>
+          <source>0</source>
+          <is_primary>0</is_primary>
+          <province_name>Lucca</province_name>
+          <country_name>Italy</country_name>
+        </n0>
+      </en>
+    </field_location>
+    <field_canale_radio _numeric_keys="1"></field_canale_radio>
+    <field_prof_min _numeric_keys="1"></field_prof_min>
+    <field_prof_max _numeric_keys="1"></field_prof_max>
+    <field_pb_trans _numeric_keys="1"></field_pb_trans>
+    <field_pbt>
+      <en _numeric_keys="1">
+        <n0>
+          <value>580</value>
+        </n0>
+      </en>
+    </field_pbt>
+    <field_lunghezza>
+      <en _numeric_keys="1">
+        <n0>
+          <value>18.00</value>
+        </n0>
+      </en>
+    </field_lunghezza>
+    <field_ref_porto>
+      <en _numeric_keys="1">
+        <n0>
+          <nid>301</nid>
+        </n0>
+      </en>
+    </field_ref_porto>
+    <field_servizi _numeric_keys="1"></field_servizi>
+    <field_descr_disabili _numeric_keys="1"></field_descr_disabili>
+    <rdf_mapping>
+      <rdftype _numeric_keys="1">
+        <n0>sioc:Item</n0>
+        <n1>foaf:Document</n1>
+      </rdftype>
+      <title>
+        <predicates _numeric_keys="1">
+          <n0>dc:title</n0>
+        </predicates>
+      </title>
+      <created>
+        <predicates _numeric_keys="1">
+          <n0>dc:date</n0>
+          <n1>dc:created</n1>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </created>
+      <changed>
+        <predicates _numeric_keys="1">
+          <n0>dc:modified</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </changed>
+      <body>
+        <predicates _numeric_keys="1">
+          <n0>content:encoded</n0>
+        </predicates>
+      </body>
+      <uid>
+        <predicates _numeric_keys="1">
+          <n0>sioc:has_creator</n0>
+        </predicates>
+        <type>rel</type>
+      </uid>
+      <name>
+        <predicates _numeric_keys="1">
+          <n0>foaf:name</n0>
+        </predicates>
+      </name>
+      <comment_count>
+        <predicates _numeric_keys="1">
+          <n0>sioc:num_replies</n0>
+        </predicates>
+        <datatype>xsd:integer</datatype>
+      </comment_count>
+      <last_activity>
+        <predicates _numeric_keys="1">
+          <n0>sioc:last_activity_date</n0>
+        </predicates>
+        <datatype>xsd:dateTime</datatype>
+        <callback>date_iso8601</callback>
+      </last_activity>
+    </rdf_mapping>
+    <cid>0</cid>
+    <last_comment_timestamp>1343893970</last_comment_timestamp>
+    <last_comment_name type="NULL"></last_comment_name>
+    <last_comment_uid>108</last_comment_uid>
+    <comment_count>0</comment_count>
+    <notifications_status>1</notifications_status>
+    <print_display>1</print_display>
+    <print_display_comment>0</print_display_comment>
+    <print_display_urllist>1</print_display_urllist>
+    <name>pbonucci</name>
+    <picture>0</picture>
+    <data>a:1:{s:7:&quot;contact&quot;;i:1;}</data>
+    <print_mail_display>1</print_mail_display>
+    <print_mail_display_comment>0</print_mail_display_comment>
+    <print_mail_display_urllist>1</print_mail_display_urllist>
+    <print_pdf_display>1</print_pdf_display>
+    <print_pdf_display_comment>0</print_pdf_display_comment>
+    <print_pdf_display_urllist>1</print_pdf_display_urllist>
+    <path type="boolean">FALSE</path>
+    <menu type="NULL"></menu>
+    <node_export_drupal_version>7</node_export_drupal_version>
+  </node>
+</node_export>

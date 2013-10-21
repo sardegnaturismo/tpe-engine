@@ -1,0 +1,377 @@
+<?php
+
+require_once 'tpe_services_config.php';
+
+/**
+ * Display help and module information
+ * @param path which path of the site we're displaying help
+ * @param arg array that holds the current path as would be returned from arg() function
+ * @return help text for the path
+ */
+/*
+  function tpe_services_help($path, $arg) {
+  $output = '';  //declare your output variable
+  switch ($path) {
+  case "admin/help#digital_library":
+  $output = '<p>'.  t("TPE services managment") .'</p>';
+  break;
+  }
+  return $output;
+  } // function tpe_services help
+ */
+
+function tpe_services_get_node_list() {
+  // this needs a little more work so the parent server knows exactly who is requesting information       
+
+  global $settings;
+
+
+  /*
+   * Per provare ad aggiornare impostare $page = 1
+   */
+  $page = 1; //variable_get($settings['importer'] . '_current_page', 1);
+
+  $authenticate = xmlrpc($settings['server'], Array('user.login' => array($settings['user'], $settings['password']),));
+
+
+  if (is_array($authenticate) && $authenticate['user']['name'] === $settings['user'] && $authenticate['user']['status'] == 1) {
+    $options = Array();
+    $options['headers']['Cookie'] = $authenticate['session_name'] . '=' . $authenticate['sessid'];
+
+    $node_ids = xmlrpc($settings['server'], Array('node.index' => Array($page, 'nid,uuid,vid', array('type' => $settings['source_structure']), $settings['nodes_for_page'])), $options);
+    if (xmlrpc_error()) {
+      $error = xmlrpc_error();
+      watchdog('tpe_services', 'Error getting node list from parent server. Error: @error.', array('@error' => $error->message), WATCHDOG_CRITICAL);
+    } else if (count($node_ids) > 0) {
+      $nodes = Array();
+      foreach ($node_ids as $nid) {
+        $nodes[] = $nid;
+      }
+      variable_set('parent_home_nodes', $nodes);
+      watchdog('tpe_services', 'Successfully retrieved node list from parent server, page ' . $page, array(), WATCHDOG_NOTICE);
+
+
+      variable_set($settings['importer'] . '_current_page', ++$page);
+      variable_set('optz', $options);
+
+      tpe_services_perform_update();
+    } else {
+      $priority = variable_get($settings['importer'] . '_priority', 1);
+      $priority-=10;
+      if ($priority < 0) {
+        $priority = 0;
+      }
+      variable_get($settings['importer'] . '_priority', $priority);
+      variable_set($settings['importer'] . '_current_page', 1);
+    }
+  }
+}
+
+function tpe_services_perform_update() {
+  global $settings;
+  $options = variable_get('optz', '');
+  $node_ids = variable_get('parent_home_nodes', 0);
+  $filtered_ids = Array();
+  foreach ($node_ids as $extnode) {
+    $vid = 0;
+    if (strlen($extnode['uuid']) > 0) {
+      $importThisNode = true;
+
+      //$result = db_query("SELECT tl.nid, tl.uuid, tl.vid,tl.original_vid  FROM {tpe_services_list} n INNER JOIN {tpe_services_list} tl ON tl.uuid = n.uuid AND tl.server_id= :server_id WHERE n.uuid = :uuid AND type = :type", Array(':server_id' => $settings['id'], ':uuid' => $extnode['uuid'], ':type' => $settings['target_structure']), $options);
+      $result = db_query("SELECT tl.nid, tl.uuid, tl.original_vid  FROM {tpe_services_list} tl WHERE tl.uuid = :uuid"  , Array(':uuid' => $extnode['uuid']), $options);
+      $numresult = $result->rowCount();
+
+      if ($numresult > 0) {
+        foreach ($result as $record) {
+          if ($record->original_vid == $extnode['vid']) {
+            // Il nodo è nella versione più aggiornata
+            $importThisNode = false;
+          } else {
+            // Il nodo esiste ed è da aggiornare
+            $filtered_ids[] = Array($extnode['nid'], $record->nid, $extnode['uuid']);
+          }
+          
+          //$filtered_ids[] = Array($extnode['nid'], $record->nid, $extnode['uuid']);
+        }
+      } elseif ($importThisNode) {
+        // Elimina eventuali vecchie revisioni dovute a cancellazioni da devel
+
+        $num_deleted = db_delete('node_revision')
+                ->condition('vid', $vid)
+                ->execute();
+        $result = db_query("SELECT n.nid,n.uuid,n.vid FROM {node} n WHERE uuid = :uuid AND type = :type", Array(':uuid' => $extnode['uuid'], ':type' => $settings['target_structure']), $options);
+        $filtered_ids[] = Array($extnode['nid'], '', $extnode['uuid']);
+      }
+    } else {
+
+      watchdog('tpe_services', 'Import of node "' . $extnode['nid'] . '" failed: no uuid was sent by the source server', array(), WATCHDOG_DEBUG);
+    }
+  }
+
+  foreach ($filtered_ids as $nids) {
+    $intNid = $nids[1];
+    $extNid = $nids[0];
+    $uuid = $nids[2];
+    $data = xmlrpc($settings['server'], Array('node.retrieve' => Array($extNid)), $options);
+    if (xmlrpc_error()) {
+      $error = xmlrpc_error();
+      watchdog('tpe_services', 'Could not perform XMLRPC request (nid:' . $extNid . '). Error: @error.', array('@error' => $error->message), WATCHDOG_CRITICAL);
+    } else {
+
+
+      if (is_array($data)) {
+        variable_set('current_node', $data);
+        tpe_services_fill_node($data, $intNid);
+      } else {
+
+        watchdog('tpe_services', 'Import of node "' . $extnode['nid'] . '" failed', array(), WATCHDOG_DEBUG);
+      }
+    }
+  }
+}
+
+function tpe_services_cron() {
+  tpe_services_startup();
+}
+
+function tpe_services_startup() {
+  global $tpe_services_config;
+  global $settings;
+  global $executionTime;
+  global $importedNodes;
+  $importedNodes = 0;
+  $executionTime = microtime(true);
+  $priorityList = Array();
+  variable_set('porti_tpe_priority', 1000);
+  /* variable_set('operatori_economici_priority', 100);
+    variable_set('porti_tpe_priority', 100);
+    variable_set('poi_turismo_priority', 200); */
+  foreach ($tpe_services_config as $key => $value) {
+    //$settings = $tpe_services_config[$key];
+    $priority_variable = $key . "_priority";
+    $priority = variable_get($priority_variable, 100);
+    $priorityList = array_merge($priorityList, Array($key => $priority));
+  }
+  array_multisort(array_values($priorityList), SORT_DESC, $priorityList);
+  $toProcess = array_keys(array_slice($priorityList, 0, 1));
+  $settings = $tpe_services_config[$toProcess[0]];
+  tpe_services_get_node_list();
+
+  watchdog('tpe_services', $toProcess[0] . ': ' . $importedNodes . '/' . $settings['nodes_for_page'] . ' imported in ' . sprintf('%4d', ((microtime(true) - $executionTime))) . 's', array(), WATCHDOG_NOTICE);
+}
+
+function tpe_services_fill_node($data, $nid) {
+  global $settings;
+  global $importedNodes;
+  $autenticate = variable_get('autenticate', 0);
+  $options = variable_get('optz', '');
+
+  $action_update = false;
+  if ($nid > 0) {
+    $new_node = node_load($nid);
+    $action_update = true;
+  } else {
+    $new_node = new stdClass();
+    $new_node->type = $settings['target_structure'];
+    $new_node->uuid = $data['uuid'];
+  }
+
+  $new_node->title = $data['title'];
+  $new_node->vuuid = $data['vuuid'];
+  $new_node->data = $data['data'];
+  $new_node->created = $data['created'];
+  $new_node->changed = $data['changed'];
+  $new_node->language = $data['language'];
+  $new_node->status = $data['status'];
+  $new_node->log = ('Aggiornamento eseguito in automatico dal sistema in data ' . format_date($new_node->changed, $type = 'custom', $format = 'd/m/Y H:i:s', $timezone = NULL, $langcode = NULL));
+
+  foreach (field_info_instances('node', $settings['target_structure']) as $kk) {
+    $machine_name = $kk['field_name'];
+
+    if (isset($settings['field_map']['' . $machine_name]['source_fieldname'])) {
+      $source_fieldname = $settings['field_map']['' . $machine_name]['source_fieldname'];
+      if ($source_fieldname == 'doNotMap')
+        continue;
+      if ($source_fieldname == 'noSource') {
+        $retrieved_data = Array();
+      } else {
+        $retrieved_data = $data['field_' . $source_fieldname];
+      }
+    } else {
+      $retrieved_data = $data['' . $machine_name];
+    }
+
+    if (isset($settings['field_map']['' . $machine_name]['data_processor'])) {
+      $dataprocessors = $settings['field_map']['' . $machine_name]['data_processor'];
+      foreach ($dataprocessors as $callback => $params) {
+        if (count($params) > 0) {
+          $inputData = array_merge($retrieved_data, $params);
+        } else {
+          $inputData = $retrieved_data;
+        }
+        $retrieved_data = call_user_func($callback, $inputData);
+      }
+    }
+
+    $infos = field_info_field($machine_name);
+    $tipo = $infos['type'];
+    switch ($tipo) {
+      case 'image':
+        //To DO:
+        // Spostare cookie come variabile globale (?)
+        // Controllare che il file immagine non sia già stato scaricato e quindi non sia già presente sul sistema
+        if ($options) {
+          if (empty($retrieved_data['' . $data['language']][0]))
+            break;
+          $imgdata = $retrieved_data['' . $data['language']][0];
+          $fid = $imgdata['fid'];
+
+          $file = xmlrpc($settings['server'], Array('file.retrieve' => Array(Array("fid" => $fid), Array("file_contents" => 'true'), Array("image_styles" => 'true'))), $options);
+          if (xmlrpc_error()) {
+            $error = xmlrpc_error();
+            watchdog('tpe_services', 'Could not perform XMLRPC request. Error: @error.', array('@error' => (String) $error), WATCHDOG_CRITICAL);
+          } else {
+            $result = db_query("SELECT f.fid,f.uuid FROM {file_managed} f WHERE uuid = ':uuid'", Array(':uuid' => $file['uuid']));
+            foreach ($result as $record) {
+              $intfid = $record['fid'];
+              $j++;
+            }
+            $filetype = explode('.', $file['filename']);
+            if (!file_exists($settings['target_image_dir'])) {
+              mkdir($settings['target_image_dir'], '0777', 1);
+            };
+            $filepath = $settings['target_image_dir'] . '/' . $file['filename'];
+            $file_data = base64_decode($file['file']);
+            try {
+              $newfile = file_save_data($file_data, $filepath, FILE_EXISTS_RENAME);
+            } catch (Exception $e) {
+              watchdog('tpe_services', $e->getMessage(), array(), WATCHDOG_NOTICE);
+              watchdog('tpe_services', "Image " . $filepath . " was not imported", array(), WATCHDOG_NOTICE);
+              break;
+            }
+          }
+
+          $newImage = Array();
+          $newImage['fid'] = $newfile->fid;
+          $newImage['alt'] = $imgdata['alt'];
+          $newImage['title'] = $imgdata['title'];
+          $newImage['width'] = $imgdata['width'];
+          $newImage['height'] = $imgdata['height'];
+          $newImage['uid'] = 1;
+          $newImage['filename'] = $imgdata['filename'];
+          $newImage['uri'] = $newfile->uri;
+          $newImage['filemime'] = $imgdata['filemime'];
+          $newImage['filesize'] = $newfile->filesize;
+          $newImage['status'] = $imgdata['status'];
+          $newImage['timestamp'] = $imgdata['timestamp'];
+          $newImage['type'] = $imgdata['type'];
+          $newImage['uuid'] = $imgdata['uuid'];
+          $newImage['field_license'] = $imgdata['field_license'];
+          $newImage['rdf_mapping'] = $imgdata['rdf_mapping'];
+          $newImage['image_dimensions'] = Array('width' => $imgdata['width'], 'height' => $imgdata['height']);
+          $newImage['display'] = 1;
+          $new_node->{'' . $machine_name} = Array(LANGUAGE_NONE => Array($newImage));
+        }
+
+
+        break;
+      case 'taxonomy_term_reference':
+        $tid = loadTaxonomy($retrieved_data['' . $data['language']][0]['tid']);
+        if ($tid) {
+          $new_node->{'' . $machine_name} = Array(LANGUAGE_NONE => Array(Array('tid' => $tid)));
+        }
+        break;
+      default:
+
+        $new_node->{'' . $machine_name} = $retrieved_data;
+
+        break;
+    }
+  }
+
+
+  try {
+    node_save($new_node);
+  } catch (Exception $e) {
+    watchdog('tpe_services', $e->getMessage(), array(), WATCHDOG_NOTICE);
+    watchdog('tpe_services', "Node " . $new_node->title . " was not imported", array(), WATCHDOG_NOTICE);
+    unset($new_node);
+    return false;
+  }
+  $importedNodes++;
+  if ($action_update) {
+    $id = db_update('tpe_services_list')
+            ->fields(array(
+                'original_vid' => $data['vid'],
+                'changed' => REQUEST_TIME,
+            ))
+            ->condition('uuid', $new_node->uuid)
+            ->execute();
+  } else {
+    $id = db_insert('tpe_services_list')
+                    ->fields(array(
+                        'id' => NULL,
+                        'server_id' => $settings['id'],
+                        'server_name' => $settings['importer'],
+                        'nid' => $new_node->nid,
+                        'original_nid' => $data['nid'],
+                        'original_vid' => $data['vid'],
+                        'uuid' => $new_node->uuid,
+                        'created' => REQUEST_TIME,
+                        'changed' => REQUEST_TIME,
+                    ))->execute();
+  }
+  unset($new_node);
+
+  return true;
+}
+
+function loadTaxonomy($tid) {
+  global $settings;
+
+  $taxonomy = xmlrpc($settings['server'], Array('taxonomy_term.retrieve' => Array($tid)));
+
+  if (!$taxonomy) {
+    return false;
+  }
+
+  $vocab = taxonomy_vocabulary_machine_name_load($taxonomy['vocabulary_machine_name']);
+
+  if (!$vocab) {
+    $vocabulary = new stdClass();
+    $vocabulary->name = $taxonomy['vocabulary_machine_name'];
+    $vocabulary->machine_name = $taxonomy['vocabulary_machine_name'];
+    $vocabulary->hierarchy = 1;
+    $vid = taxonomy_vocabulary_save($vocabulary);
+  } else {
+    $vid = $vocab->vid;
+  }
+
+  $result = db_query("SELECT * FROM {taxonomy_term_data} n WHERE uuid = :uuid", Array(':uuid' => $taxonomy['uuid']));
+
+  if ($result->rowCount() > 0) {
+    $record = $result->fetchObject();
+    $target_tid = $record->tid;
+  } else {
+    $term = new stdClass();
+    $term->vid = $vid;
+    $term->name = $taxonomy['name'];
+    $term->uuid = $taxonomy['uuid'];
+    //TODO: Implement hyerarchy of taxonomy terms
+    //$tax->parent: (optional) The parent term(s) for this term. This can be a single term ID or an array of term IDs. A value of 0 means this term does not have any parents. When omitting this variable during an update, the existing hierarchy for the term remains unchanged.
+    $term->vocabulary_machine_name = $taxonomy['vocabulary_machine_name'];
+    $target_tid = taxonomy_term_save($term);
+  }
+
+  return $target_tid;
+}
+
+/*
+ * Implements hook_node_delete().
+ */
+
+function tpe_services_node_delete($node) {
+  db_delete('tpe_services_list')
+          ->condition('uuid', $node->uuid)
+          ->execute();
+}

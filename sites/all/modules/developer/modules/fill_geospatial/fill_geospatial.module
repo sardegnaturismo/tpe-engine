@@ -1,0 +1,47 @@
+<?php
+
+function fill_geospatial_node_presave($node) {
+  
+switch($node->type){
+  case "scheda_operatori_economici":
+  case "scheda_porto":  
+  case "scheda_gestore":
+  case "poi":
+//if(empty($node->field_geospatial['und'][0]['geometry'])){
+ $location=current(current($node->field_getlocations));
+ 
+ if(intval($location['latitude'])>0){
+   
+   $node->field_geospatial=fill_geospatial_doGeospatial(Array('lat'=>$location['latitude'],'long'=>$location['longitude']));
+   
+        }
+      
+      //}
+      
+      
+
+ break;
+} 
+   
+   return;
+   
+ }
+
+function fill_geospatial_doGeospatial($coords){
+  
+$wkt='POINT('.$coords['long'].' '.$coords['lat'].')';
+$geometry = new PostgisGeometry($geo_type, '4326');
+    
+$geometry->fromText($wkt);
+$geospatial=array(
+        'und' => array(
+          array(
+            'wkt' => $wkt ,
+            'geometry' => $geometry->getGeometry(),
+          ),
+        ));
+
+return $geospatial;
+  
+}
+?>

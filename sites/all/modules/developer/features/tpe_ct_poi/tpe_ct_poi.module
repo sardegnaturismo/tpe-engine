@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the tpe_ct_poi feature.
+ */
+
+include_once 'tpe_ct_poi.features.inc';

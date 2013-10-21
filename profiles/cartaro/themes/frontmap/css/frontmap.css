@@ -1,0 +1,8 @@
+/* Hide feed icon on frontpage. */
+body.front a.feed-icon {
+  display: none;
+}
+
+#main {
+  margin-bottom: 20px;
+}

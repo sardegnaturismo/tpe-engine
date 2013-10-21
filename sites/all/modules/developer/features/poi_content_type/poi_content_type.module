@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the POI Content type feature.
+ */
+
+include_once 'poi_content_type.features.inc';

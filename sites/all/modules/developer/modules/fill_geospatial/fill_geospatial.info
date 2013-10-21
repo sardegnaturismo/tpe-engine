@@ -1,0 +1,5 @@
+name = Fill geospatial
+description = Riempie il campo geospatial a partire dai contenuti presenti in getLocations
+dependencies[] = geophp
+core = 7.x
+version = 7.x-0.4
