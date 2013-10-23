@@ -158,7 +158,7 @@ function tpe_ct_scheda_porto_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'text_textfield',
-        'weight' => '8',
+        'weight' => '9',
       ),
     ),
   );
@@ -234,7 +234,7 @@ function tpe_ct_scheda_porto_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'text_textfield',
-        'weight' => '3',
+        'weight' => '4',
       ),
     ),
   );
@@ -534,7 +534,7 @@ function tpe_ct_scheda_porto_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'text_textfield',
-        'weight' => '7',
+        'weight' => '8',
       ),
     ),
   );
@@ -1026,7 +1026,7 @@ function tpe_ct_scheda_porto_field_default_fields() {
           'map' => 'postgis_widget_map',
         ),
         'type' => 'wkt',
-        'weight' => '6',
+        'weight' => '7',
       ),
     ),
   );
@@ -1345,7 +1345,7 @@ function tpe_ct_scheda_porto_field_default_fields() {
           'use_country_dropdown' => 1,
         ),
         'type' => 'getlocations_fields',
-        'weight' => '5',
+        'weight' => '6',
       ),
     ),
   );
@@ -2010,6 +2010,75 @@ function tpe_ct_scheda_porto_field_default_fields() {
         'settings' => array(),
         'type' => 'number',
         'weight' => '23',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-scheda_porto-field_mail'.
+  $fields['node-scheda_porto-field_mail'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_mail',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'locked' => '0',
+      'module' => 'text',
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'translatable' => '1',
+      'type' => 'text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'scheda_porto',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => 73,
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_mail',
+      'label' => 'E-mail',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'size' => '60',
+        ),
+        'type' => 'text_textfield',
+        'weight' => '1',
       ),
     ),
   );
@@ -2993,7 +3062,7 @@ function tpe_ct_scheda_porto_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_select',
-        'weight' => '4',
+        'weight' => '5',
       ),
     ),
   );
@@ -3168,7 +3237,7 @@ function tpe_ct_scheda_porto_field_default_fields() {
           'year_range' => '-3:+3',
         ),
         'type' => 'date_select',
-        'weight' => '9',
+        'weight' => '10',
       ),
     ),
   );
@@ -3772,7 +3841,7 @@ function tpe_ct_scheda_porto_field_default_fields() {
         'module' => 'number',
         'settings' => array(),
         'type' => 'number',
-        'weight' => '22',
+        'weight' => '34',
       ),
     ),
   );
@@ -4307,7 +4376,7 @@ function tpe_ct_scheda_porto_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_select',
-        'weight' => '2',
+        'weight' => '3',
       ),
     ),
   );
@@ -4540,7 +4609,7 @@ function tpe_ct_scheda_porto_field_default_fields() {
         'module' => 'link',
         'settings' => array(),
         'type' => 'link_field',
-        'weight' => '1',
+        'weight' => '2',
       ),
     ),
   );
@@ -4565,6 +4634,7 @@ function tpe_ct_scheda_porto_field_default_fields() {
   t('Descrizione raccolta');
   t('Descrizione riutilizzo acque depurate');
   t('Descrizione trattamento');
+  t('E-mail');
   t('Elenco dei contatti ufficiali del porto');
   t('Fax');
   t('Geo');

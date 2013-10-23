@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the TPE - Page feature.
+ */
+
+include_once 'tpe_ct_page.features.inc';

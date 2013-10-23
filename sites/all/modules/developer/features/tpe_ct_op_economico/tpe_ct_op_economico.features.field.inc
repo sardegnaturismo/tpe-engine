@@ -92,7 +92,7 @@ function tpe_ct_op_economico_field_default_fields() {
           'summary_rows' => 5,
         ),
         'type' => 'text_textarea_with_summary',
-        'weight' => '5',
+        'weight' => '6',
       ),
       'widget_type' => 'text_textarea_with_summary',
     ),
@@ -175,7 +175,7 @@ function tpe_ct_op_economico_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'text_textfield',
-        'weight' => '7',
+        'weight' => '8',
       ),
     ),
   );
@@ -257,7 +257,7 @@ function tpe_ct_op_economico_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'text_textfield',
-        'weight' => '8',
+        'weight' => '9',
       ),
     ),
   );
@@ -329,7 +329,7 @@ function tpe_ct_op_economico_field_default_fields() {
         'module' => 'geofield',
         'settings' => array(),
         'type' => 'geofield_openlayers',
-        'weight' => '12',
+        'weight' => '15',
       ),
     ),
   );
@@ -387,7 +387,7 @@ function tpe_ct_op_economico_field_default_fields() {
           'map' => 'postgis_widget_map',
         ),
         'type' => 'openlayers',
-        'weight' => '12',
+        'weight' => '13',
       ),
     ),
   );
@@ -664,7 +664,7 @@ function tpe_ct_op_economico_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'field_getlocations',
       'label' => 'Località',
-      'required' => 0,
+      'required' => 1,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -706,7 +706,7 @@ function tpe_ct_op_economico_field_default_fields() {
           'use_country_dropdown' => 1,
         ),
         'type' => 'getlocations_fields',
-        'weight' => '6',
+        'weight' => '7',
       ),
     ),
   );
@@ -785,7 +785,7 @@ function tpe_ct_op_economico_field_default_fields() {
           'rows' => '5',
         ),
         'type' => 'text_textarea',
-        'weight' => '9',
+        'weight' => '10',
       ),
     ),
   );
@@ -861,7 +861,7 @@ function tpe_ct_op_economico_field_default_fields() {
         'module' => 'number',
         'settings' => array(),
         'type' => 'number',
-        'weight' => '13',
+        'weight' => '16',
       ),
     ),
   );
@@ -995,7 +995,7 @@ function tpe_ct_op_economico_field_default_fields() {
         'module' => 'location_cck',
         'settings' => array(),
         'type' => 'location',
-        'weight' => '11',
+        'weight' => '14',
       ),
     ),
   );
@@ -1071,7 +1071,7 @@ function tpe_ct_op_economico_field_default_fields() {
         'module' => 'number',
         'settings' => array(),
         'type' => 'number',
-        'weight' => '14',
+        'weight' => '17',
       ),
     ),
   );
@@ -1153,7 +1153,7 @@ function tpe_ct_op_economico_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'text_textfield',
-        'weight' => '11',
+        'weight' => '12',
       ),
     ),
   );
@@ -1425,6 +1425,75 @@ function tpe_ct_op_economico_field_default_fields() {
         'module' => 'options',
         'settings' => array(),
         'type' => 'options_select',
+        'weight' => '5',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-scheda_operatori_economici-field_virtual_organization'.
+  $fields['node-scheda_operatori_economici-field_virtual_organization'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_virtual_organization',
+      'foreign keys' => array(),
+      'indexes' => array(
+        'value' => array(
+          0 => 'value',
+        ),
+      ),
+      'locked' => '0',
+      'module' => 'list',
+      'settings' => array(
+        'allowed_values' => array(
+          0 => 'no',
+          1 => 'si',
+        ),
+        'allowed_values_function' => '',
+      ),
+      'translatable' => '0',
+      'type' => 'list_boolean',
+    ),
+    'field_instance' => array(
+      'bundle' => 'scheda_operatori_economici',
+      'default_value' => array(
+        0 => array(
+          'value' => 0,
+        ),
+      ),
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'list',
+          'settings' => array(),
+          'type' => 'list_default',
+          'weight' => 16,
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_virtual_organization',
+      'label' => 'Aderente alla virtual organization',
+      'required' => 0,
+      'settings' => array(
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'options',
+        'settings' => array(
+          'display_label' => 1,
+        ),
+        'type' => 'options_onoff',
         'weight' => '4',
       ),
     ),
@@ -1519,13 +1588,14 @@ function tpe_ct_op_economico_field_default_fields() {
         'module' => 'link',
         'settings' => array(),
         'type' => 'link_field',
-        'weight' => '10',
+        'weight' => '11',
       ),
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Aderente alla virtual organization');
   t('Descrizione attività');
   t('E-mail');
   t('Fax');

@@ -633,7 +633,7 @@ function tpe_ct_prodotto_field_default_fields() {
     'field_instance' => array(
       'bundle' => 'scheda_prodotto',
       'deleted' => '0',
-      'description' => '',
+      'description' => 'Per favore introdurre solo punti geografici in questo campo.',
       'display' => array(
         'default' => array(
           'label' => 'above',
@@ -1297,6 +1297,7 @@ function tpe_ct_prodotto_field_default_fields() {
   t('Indicazione sintetica delle tecniche di produzione abbinate al prodotto specificato');
   t('Indicazione sintetica di riferimenti storici legati al prodotto');
   t('Nome geografico abbinato');
+  t('Per favore introdurre solo punti geografici in questo campo.');
   t('Sinonimi');
   t('Stagionalità del prodotto');
   t('Tecniche di produzione');

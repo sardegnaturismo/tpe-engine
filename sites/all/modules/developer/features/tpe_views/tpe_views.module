@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the TPE - Views feature.
+ */
+
+include_once 'tpe_views.features.inc';

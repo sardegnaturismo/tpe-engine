@@ -21,14 +21,15 @@ function tpe_ct_op_economico_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Obsoleti',
-    'weight' => '13',
+    'weight' => '14',
     'children' => array(
-      0 => 'field_location',
-      1 => 'field_longitudine',
-      2 => 'field_geofield',
-      3 => 'field_latitudine',
+      0 => 'field_geofield',
+      1 => 'field_latitudine',
+      2 => 'field_longitudine',
+      3 => 'field_location',
+      4 => 'field_geospatial',
     ),
-    'format_type' => 'tab',
+    'format_type' => 'htab',
     'format_settings' => array(
       'formatter' => 'closed',
       'instance_settings' => array(

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the TPE - Pagine custom feature.
+ */
+
+include_once 'tpe_pagine_custom.features.inc';

@@ -1,0 +1,17 @@
+name = TPE - Openlayers
+description = Configurazioni openlayers
+core = 7.x
+package = TPE
+version = 7.x-1.0
+project = tpe_openlayers
+dependencies[] = ctools
+dependencies[] = openlayers
+features[ctools][] = openlayers:openlayers_layers:1
+features[ctools][] = openlayers:openlayers_maps:1
+features[features_api][] = api:1
+features[openlayers_layers][] = chiese_dal_geoserver
+features[openlayers_layers][] = prova_porti
+features[openlayers_maps][] = clone_of_tpe_ports
+features[openlayers_maps][] = tpe_poi
+features[openlayers_maps][] = tpe_ports
+features[openlayers_maps][] = virtual_organization

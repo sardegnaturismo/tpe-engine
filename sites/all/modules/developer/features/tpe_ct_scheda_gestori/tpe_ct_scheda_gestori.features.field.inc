@@ -80,7 +80,7 @@ function tpe_ct_scheda_gestori_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'text_textfield',
-        'weight' => '5',
+        'weight' => '6',
       ),
     ),
   );
@@ -155,7 +155,7 @@ function tpe_ct_scheda_gestori_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'text_textfield',
-        'weight' => '0',
+        'weight' => '1',
       ),
     ),
   );
@@ -200,7 +200,7 @@ function tpe_ct_scheda_gestori_field_default_fields() {
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => '48',
+          'weight' => 48,
         ),
         'notifications' => array(
           'label' => 'above',
@@ -305,7 +305,7 @@ function tpe_ct_scheda_gestori_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'text_textfield',
-        'weight' => '1',
+        'weight' => '2',
       ),
     ),
   );
@@ -363,7 +363,7 @@ function tpe_ct_scheda_gestori_field_default_fields() {
           'map' => 'postgis_widget_map',
         ),
         'type' => 'openlayers',
-        'weight' => '4',
+        'weight' => '5',
       ),
     ),
   );
@@ -682,7 +682,7 @@ function tpe_ct_scheda_gestori_field_default_fields() {
           'use_country_dropdown' => 1,
         ),
         'type' => 'getlocations_fields',
-        'weight' => '-1',
+        'weight' => '0',
       ),
     ),
   );
@@ -810,7 +810,7 @@ function tpe_ct_scheda_gestori_field_default_fields() {
         'module' => 'location_cck',
         'settings' => array(),
         'type' => 'location',
-        'weight' => '10',
+        'weight' => '6',
       ),
     ),
   );
@@ -957,7 +957,7 @@ function tpe_ct_scheda_gestori_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'text_textfield',
-        'weight' => '3',
+        'weight' => '4',
       ),
     ),
   );
@@ -1398,7 +1398,7 @@ function tpe_ct_scheda_gestori_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'text_textfield',
-        'weight' => '-2',
+        'weight' => '-1',
       ),
     ),
   );
@@ -1449,7 +1449,7 @@ function tpe_ct_scheda_gestori_field_default_fields() {
           'module' => 'i18n_taxonomy',
           'settings' => array(),
           'type' => 'i18n_taxonomy_term_reference_link',
-          'weight' => '47',
+          'weight' => 47,
         ),
         'notifications' => array(
           'label' => 'above',
@@ -1477,6 +1477,75 @@ function tpe_ct_scheda_gestori_field_default_fields() {
         'settings' => array(),
         'type' => 'options_buttons',
         'weight' => '37',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-scheda_gestore-field_virtual_organization'.
+  $fields['node-scheda_gestore-field_virtual_organization'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_virtual_organization',
+      'foreign keys' => array(),
+      'indexes' => array(
+        'value' => array(
+          0 => 'value',
+        ),
+      ),
+      'locked' => '0',
+      'module' => 'list',
+      'settings' => array(
+        'allowed_values' => array(
+          0 => 'no',
+          1 => 'si',
+        ),
+        'allowed_values_function' => '',
+      ),
+      'translatable' => '0',
+      'type' => 'list_boolean',
+    ),
+    'field_instance' => array(
+      'bundle' => 'scheda_gestore',
+      'default_value' => array(
+        0 => array(
+          'value' => 0,
+        ),
+      ),
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'list',
+          'settings' => array(),
+          'type' => 'list_default',
+          'weight' => 49,
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_virtual_organization',
+      'label' => 'Aderente alla virtual organization',
+      'required' => 0,
+      'settings' => array(
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'options',
+        'settings' => array(
+          'display_label' => 1,
+        ),
+        'type' => 'options_onoff',
+        'weight' => '-2',
       ),
     ),
   );
@@ -1563,7 +1632,7 @@ function tpe_ct_scheda_gestori_field_default_fields() {
         'module' => 'link',
         'settings' => array(),
         'type' => 'link_field',
-        'weight' => '2',
+        'weight' => '3',
       ),
     ),
   );
@@ -1660,6 +1729,7 @@ function tpe_ct_scheda_gestori_field_default_fields() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Aderente alla virtual organization');
   t('Canale Radio (VHF-CH)');
   t('Descrizione accessibilità');
   t('E-mail');

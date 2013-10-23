@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the TPE - Media feature.
+ */
+
+include_once 'tpe_media.features.inc';
