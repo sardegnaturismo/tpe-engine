@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * @file Main file for Import Product module
+ */
+
+/**
+ * Invoked before a feed item is saved.
+ *
+ * @param $source
+ *  FeedsSource object that describes the source that is being imported.
+ * @param $entity
+ *   The entity object.
+ * @param $item
+ *   The parser result for this entity.
+ */
+function import_product_feeds_presave(FeedsSource $source, $entity, $item) {
+  $tipo_prodotto = reset(entity_get_id_by_uuid('node', array($item['xpathparser:8'])));
+  $commerce_key = _get_commerce_key($source->feed_nid);
+  $venditore = _get_vendor($commerce_key);
+  $entity->field_vendor[LANGUAGE_NONE][]['nid'] = $venditore;
+  //$entity->field_tipo_prodotto[LANGUAGE_NONE][0]['nid'] = $tipo_prodotto;
+}
+
+/**
+ * Get vendor by commerce_key
+ * @param type $vendor_key
+ */
+function _get_vendor($vendor_key) {
+  $query = new EntityFieldQuery();
+  $query->entityCondition('entity_type', 'node')
+          ->entityCondition('bundle', 'scheda_venditore')
+          ->fieldCondition('field_commerce_key', 'value', $vendor_key, '=')
+          ;
+
+  $result = $query->execute();
+  if ($result['node']) {
+    $node = reset($result['node']);
+    return $node->nid;
+  }
+}
+
+/**
+ * Prende la commerce_key dalla sorgente di feeds
+ * @param type $nid
+ * @return type
+ */
+function _get_commerce_key($nid) {
+    $node = node_load($nid);
+    return $node->field_commerce_key[LANGUAGE_NONE][0]['value'];
+  
+}

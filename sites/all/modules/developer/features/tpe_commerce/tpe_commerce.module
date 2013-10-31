@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Tpe - Commerce feature.
+ */
+
+include_once 'tpe_commerce.features.inc';
